@@ -6,4 +6,4 @@ draft: false
 
 # Ratings
 
-![ratings](/images/ratings.png)
+![ratings]({{< baseurl >}}/images/ratings.png)
