@@ -23,7 +23,8 @@ Each of the following sections will analyse and visualize different datasets rel
       <pubDate>Wed, 24 Nov 2021 16:46:57 +0100</pubDate>
       
       <guid>https://nklingen.github.io/TheOfficeWebsite/docs/network_analysis/</guid>
-      <description>Network Analysis #  </description>
+      <description>Add plot in/out degree distribution
+ Analysis of degree distributions #  Inward degree distribution: We see a power-law distribution, which has a large majority of nodes with few in-going links, and few instances of nodes with large in-going degrees. We can explain this by noting that the main characters overwhelmingly have many ingoing links from more minor characters, without referencing those characters in return. While interacctions with main characters are significant for minor characters, they are insignificant in the storyline of the main-characters, leading to a one-sided relationship.</description>
     </item>
     
     <item>
@@ -32,7 +33,8 @@ Each of the following sections will analyse and visualize different datasets rel
       <pubDate>Wed, 24 Nov 2021 16:46:57 +0100</pubDate>
       
       <guid>https://nklingen.github.io/TheOfficeWebsite/docs/ratings/</guid>
-      <description>Ratings #  </description>
+      <description>Ratings #   Add ratings per season plot
+ We overall see the rating climb in seasons 1 and 2, then peak in seasons 3. Season 4 slightly decreases in the averageratings, yet has a much higher variance. Thus the quality between episodes themselves varies much more in this season. We see the decrease in ratings continue until season 7, where it climbs again, before a dramatic decline in season 8.</description>
     </item>
     
   </channel>

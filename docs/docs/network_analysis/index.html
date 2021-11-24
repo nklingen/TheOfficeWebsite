@@ -3,10 +3,12 @@
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Network Analysis #  ">
+<meta name="description" content="Add plot in/out degree distribution
+ Analysis of degree distributions #  Inward degree distribution: We see a power-law distribution, which has a large majority of nodes with few in-going links, and few instances of nodes with large in-going degrees. We can explain this by noting that the main characters overwhelmingly have many ingoing links from more minor characters, without referencing those characters in return. While interacctions with main characters are significant for minor characters, they are insignificant in the storyline of the main-characters, leading to a one-sided relationship.">
 <meta name="theme-color" content="#FFFFFF">
 <meta name="color-scheme" content="light dark"><meta property="og:title" content="Network Analysis" />
-<meta property="og:description" content="Network Analysis #  " />
+<meta property="og:description" content="Add plot in/out degree distribution
+ Analysis of degree distributions #  Inward degree distribution: We see a power-law distribution, which has a large majority of nodes with few in-going links, and few instances of nodes with large in-going degrees. We can explain this by noting that the main characters overwhelmingly have many ingoing links from more minor characters, without referencing those characters in return. While interacctions with main characters are significant for minor characters, they are insignificant in the storyline of the main-characters, leading to a one-sided relationship." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://nklingen.github.io/TheOfficeWebsite/docs/network_analysis/" /><meta property="article:section" content="docs" />
 <meta property="article:published_time" content="2021-11-24T16:46:57+01:00" />
@@ -17,7 +19,7 @@
 <link rel="icon" href="/TheOfficeWebsite/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="/TheOfficeWebsite/book.min.46181bc93375ba932026e753b37c40e6ff8bb16a9ef770c78bcc663e4577b1ba.css" integrity="sha256-RhgbyTN1upMgJudTs3xA5v&#43;LsWqe93DHi8xmPkV3sbo=" crossorigin="anonymous">
   <script defer src="/TheOfficeWebsite/flexsearch.min.js"></script>
-  <script defer src="/TheOfficeWebsite/en.search.min.7799267a2890e1796f138ce8e3f723d4bbf3ed669de47ffbdca914fa24be968f.js" integrity="sha256-d5kmeiiQ4XlvE4zo4/cj1Lvz7Wad5H/73KkU&#43;iS&#43;lo8=" crossorigin="anonymous"></script>
+  <script defer src="/TheOfficeWebsite/en.search.min.f15a6c64257d057069f710bb3b71090495785a26e130484cf528e0bf774f38d1.js" integrity="sha256-8VpsZCV9BXBp9xC7O3EJBJV4WibhMEhM9Sjgv3dPONE=" crossorigin="anonymous"></script>
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -151,7 +153,15 @@ https://github.com/alex-shpak/hugo-book
   <aside class="hidden clearfix">
     
   
-<nav id="TableOfContents"></nav>
+<nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#analysis-of-degree-distributions">Analysis of degree distributions</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
 
 
 
@@ -162,10 +172,15 @@ https://github.com/alex-shpak/hugo-book
 
       
       
-  <article class="markdown"><h1 id="network-analysis">
-  Network Analysis
-  <a class="anchor" href="#network-analysis">#</a>
-</h1>
+  <article class="markdown"><blockquote>
+<p>Add plot in/out degree distribution</p>
+</blockquote>
+<h3 id="analysis-of-degree-distributions">
+  Analysis of degree distributions
+  <a class="anchor" href="#analysis-of-degree-distributions">#</a>
+</h3>
+<p><strong>Inward degree distribution:</strong> We see a power-law distribution, which has a large majority of nodes with few in-going links, and few instances of nodes with large in-going degrees. We can explain this by noting that the main characters overwhelmingly have many ingoing links from more minor characters, without referencing those characters in return. While interacctions with main characters are significant for minor characters, they are insignificant in the storyline of the main-characters, leading to a one-sided relationship. Similarly, the power law defines that a network usually consists of a few hubs that most other nodes are connected to. The magnitude of nodes with 0 ingoing edges is reduced after discarding all nodes not in the GCC. However, we will observe many nodes with no ingoing edges.</p>
+<p><strong>Outward degree distribution:</strong> We here see a somewhat Poisson-like distribution. However, we notice some cases where some characters have no outgoing connections. These characters were not removed when creating the GCC as they must still have an ingoing-link connecting them to the giant component. More specifically, they are referenced by a more &ldquo;central&rdquo; character, without them referencing that character in return. This means that the vast majority of characters that are in the GCC have just one ingoing-link.</p>
 </article>
  
       
@@ -205,7 +220,15 @@ https://github.com/alex-shpak/hugo-book
       <div class="book-toc-content">
         
   
-<nav id="TableOfContents"></nav>
+<nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#analysis-of-degree-distributions">Analysis of degree distributions</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
 
 
  
