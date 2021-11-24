@@ -33,8 +33,8 @@ Each of the following sections will analyse and visualize different datasets rel
       <pubDate>Wed, 24 Nov 2021 16:46:57 +0100</pubDate>
       
       <guid>https://nklingen.github.io/TheOfficeWebsite/docs/ratings/</guid>
-      <description>Ratings #   Add ratings per season plot
- We overall see the rating climb in seasons 1 and 2, then peak in seasons 3. Season 4 slightly decreases in the averageratings, yet has a much higher variance. Thus the quality between episodes themselves varies much more in this season. We see the decrease in ratings continue until season 7, where it climbs again, before a dramatic decline in season 8.</description>
+      <description>Ratings per Season #  We overall see the rating climb in seasons 1 and 2, then peak in seasons 3. Season 4 slightly decreases in the averageratings, yet has a much higher variance. Thus the quality between episodes themselves varies much more in this season. We see the decrease in ratings continue until season 7, where it climbs again, before a dramatic decline in season 8.
+Analysis of Top Episodes #    Goodbye Michael: This episode is the final episode to feature Michael Scott as the series&amp;rsquo;s main character, and is regarded by many critics as the &amp;ldquo;series finale&amp;rdquo;, as the series received much criticism for a decline in quality after Michael&amp;rsquo;s departure.</description>
     </item>
     
   </channel>
