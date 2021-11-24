@@ -6,3 +6,4 @@ draft: false
 
 # Ratings
 
+![ratings](/images/ratings.png)
