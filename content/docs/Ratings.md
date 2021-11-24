@@ -10,7 +10,7 @@ draft: false
 
 We overall see the rating climb in seasons 1 and 2, then peak in seasons 3. Season 4 slightly decreases in the averageratings, yet has a much higher variance. Thus the quality between episodes themselves varies much more in this season. We see the decrease in ratings continue until season 7, where it climbs again, before a dramatic decline in season 8.
 
-![ratings]({{<baseurl>}}/images/ratings.png)
+![ratings]({{<baseurl>}}/images/ratings.png | width=100)
 
 > Add ratings per episode plot
 
