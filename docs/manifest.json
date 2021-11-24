@@ -1,6 +1,6 @@
 {
-  "name": "My New Hugo Site",
-  "short_name": "My New Hugo Site",
+  "name": "The Office",
+  "short_name": "The Office",
   "start_url": "/TheOfficeWebsite/",
   "scope": "/TheOfficeWebsite/",
   "display": "standalone",
