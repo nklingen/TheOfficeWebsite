@@ -8,6 +8,10 @@ draft: false
 
 We will use the [Louvain method](https://en.wikipedia.org/wiki/Louvain_method) to divide the network into communities of characters in order to see if we can find some intresting groupings from the network alone.
 
+## Methodology
+
+## Results
+
 This yields 11 communities, which are illustrated in the image below. Each community has a diferent color and labels correspond to the characters that are at the center of each community.
 
 ![ratings]({{<baseurl>}}/images/communities_netowrk.png)
