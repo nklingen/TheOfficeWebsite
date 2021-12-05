@@ -18,7 +18,7 @@ We use the pages from [The Office Wiki](https://theoffice.fandom.com/wiki/Main_P
 
 ![Jim_Halpert_wiki]({{<baseurl>}}/images/wordclouds/Jim_Halpert_wiki.png)
 
-![Pam_Beesley_wiki]({{<baseurl>}}/images/wordclouds/Pam_Beesly_wiki.png)
+![Pam_Beesly_wiki]({{<baseurl>}}/images/wordclouds/Pam_Beesly_wiki.png)
 
 ![Andy_Bernard_wiki]({{<baseurl>}}/images/wordclouds/Andy_Bernard_wiki.png)
 
@@ -41,13 +41,13 @@ Now let's do the same, but looking at their dialogue. We can gain insights about
 
 ### Wordclouds
 
-![Michael_w]({{<baseurl>}}/images/wordclouds/michael_w.png)
+![michael_w]({{<baseurl>}}/images/wordclouds/michael_w.png)
 
-![Dwight_w]({{<baseurl>}}/images/wordclouds/dwight_w.png)
+![dwight_w]({{<baseurl>}}/images/wordclouds/dwight_w.png)
 
-![Jim_w]({{<baseurl>}}/images/wordclouds/jim_w.png)
+![jim_w]({{<baseurl>}}/images/wordclouds/jim_w.png)
 
-![Pam_w]({{<baseurl>}}/images/wordclouds/pam_w.png)
+![pam_w]({{<baseurl>}}/images/wordclouds/pam_w.png)
 
-![Andy_w]({{<baseurl>}}/images/wordclouds/andy_w.png)
+![andy_w]({{<baseurl>}}/images/wordclouds/andy_w.png)
 
