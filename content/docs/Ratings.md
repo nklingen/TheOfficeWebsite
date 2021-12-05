@@ -12,6 +12,8 @@ We overall see the rating climb in seasons 1 and 2, then peak in seasons 3. Seas
 
 ![ratings]({{<baseurl>}}/images/ratings_episodes.png)
 
+In the image above, all ratings across all seasons are plotted. Moreover, the seasons are indicated with the verticle dashed lines, and the top 3 best and worst episodes are marked and labelled. 
+
 ### Analysis of Top Episodes
 
 - `Goodbye Michael`: This episode is the final episode to feature Michael Scott as the series's main character, and is regarded by many critics as the "series finale", as the series received much criticism for a decline in quality after Michael's departure. We can make the case that Michael was the true main character. After he leaves, we see that the ratings crumble and the show cannot recover.
