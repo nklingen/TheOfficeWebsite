@@ -37,5 +37,15 @@ Each of the following sections will analyse and visualize different datasets rel
 Analysis of Top Episodes #    Goodbye Michael: This episode is the final episode to feature Michael Scott as the series&amp;rsquo;s main character, and is regarded by many critics as the &amp;ldquo;series finale&amp;rdquo;, as the series received much criticism for a decline in quality after Michael&amp;rsquo;s departure.</description>
     </item>
     
+    <item>
+      <title>Viewership</title>
+      <link>https://nklingen.github.io/TheOfficeWebsite/docs/viewership/</link>
+      <pubDate>Wed, 24 Nov 2021 16:46:57 +0100</pubDate>
+      
+      <guid>https://nklingen.github.io/TheOfficeWebsite/docs/viewership/</guid>
+      <description>The first thing we immediately notice is that The Office steadily increases in viewership until season 5. However, it then begins declining in seasons 6 and 7, even before Michael leaves at the end at season 7. In Seasons 8 and 9 where Michael is no longer a part of the cast, the viewership sharply declines until the series ends.
+Moreover, we notice a wider variance in viewership in the first seasons.</description>
+    </item>
+    
   </channel>
 </rss>
