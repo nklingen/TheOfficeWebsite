@@ -1,22 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Docs on The Office</title>
+    <title>_index on The Office</title>
     <link>https://nklingen.github.io/TheOfficeWebsite/docs/</link>
-    <description>Recent content in Docs on The Office</description>
+    <description>Recent content in _index on The Office</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 24 Nov 2021 16:46:57 +0100</lastBuildDate><atom:link href="https://nklingen.github.io/TheOfficeWebsite/docs/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>About</title>
-      <link>https://nklingen.github.io/TheOfficeWebsite/docs/about/</link>
-      <pubDate>Wed, 24 Nov 2021 16:46:57 +0100</pubDate>
-      
-      <guid>https://nklingen.github.io/TheOfficeWebsite/docs/about/</guid>
-      <description>About #  This website was created by Blanca Robledo Díaz, Oliver Zeman and Natasha Ø. Klingenbrunn as a final project for the course 02805 Social graphs and interactions offered by the Technical University of Denmark.
-Each of the following sections will analyse and visualize different datasets relating to the office.</description>
-    </item>
-    
     <item>
       <title>Communities</title>
       <link>https://nklingen.github.io/TheOfficeWebsite/docs/communities/</link>
@@ -26,6 +16,16 @@ Each of the following sections will analyse and visualize different datasets rel
       <description>Communities #  We will use the Louvain method to divide the network into communities of characters in order to see if we can find some intresting groupings from the network alone.
 Methodology #  Results #  This yields 11 communities, which are illustrated in the image below. Each community has a diferent color and labels correspond to the characters that are at the center of each community.
 Now let&amp;rsquo;s take a closer look at the members of each community.</description>
+    </item>
+    
+    <item>
+      <title>Directors</title>
+      <link>https://nklingen.github.io/TheOfficeWebsite/docs/directors/</link>
+      <pubDate>Wed, 24 Nov 2021 16:46:57 +0100</pubDate>
+      
+      <guid>https://nklingen.github.io/TheOfficeWebsite/docs/directors/</guid>
+      <description>From the Kaggle Dataset, we will also analyse the most frequent and most popular directors. There were 54 total directors throughout the show, many of which only directed 1 or 2 episodes. We will focus only on the top 10 most frequent directors.
+The graph above shows the 10 most frequent directors, sorted in descending order from left to right by # of episodes directed, with their respective average ratings.</description>
     </item>
     
     <item>
@@ -55,7 +55,7 @@ Most descriptive words #  We use the pages from The Office Wiki, for each charac
       
       <guid>https://nklingen.github.io/TheOfficeWebsite/docs/ratings/</guid>
       <description>Ratings per Season #  We overall see the rating climb in seasons 1 and 2, then peak in seasons 3. Season 4 slightly decreases in the averageratings, yet has a much higher variance. Thus the quality between episodes themselves varies much more in this season. We see the decrease in ratings continue until season 7, where it climbs again, before a dramatic decline in season 8.
-test In the image above, all ratings across all seasons are plotted.</description>
+In the image above, all ratings across all seasons are plotted.</description>
     </item>
     
     <item>
