@@ -34,8 +34,8 @@ The graph above shows the 10 most frequent directors, sorted in descending order
       <pubDate>Wed, 24 Nov 2021 16:46:57 +0100</pubDate>
       
       <guid>https://nklingen.github.io/TheOfficeWebsite/docs/network_analysis/</guid>
-      <description>Add plot in/out degree distribution
- Analysis of degree distributions #  Inward degree distribution: We see a power-law distribution, which has a large majority of nodes with few in-going links, and few instances of nodes with large in-going degrees. We can explain this by noting that the main characters overwhelmingly have many ingoing links from more minor characters, without referencing those characters in return. While interacctions with main characters are significant for minor characters, they are insignificant in the storyline of the main-characters, leading to a one-sided relationship.</description>
+      <description>Analysis of degree distributions #  We plot the degree distributions both before and after making the GCC which we used in the network.
+Inward degree distribution: We see a power-law distribution, which has a large majority of nodes with few in-going links, and few instances of nodes with large in-going degrees. We can explain this by noting that the main characters overwhelmingly have many ingoing links from more minor characters, without referencing those characters in return.</description>
     </item>
     
     <item>
@@ -44,7 +44,7 @@ The graph above shows the 10 most frequent directors, sorted in descending order
       <pubDate>Wed, 24 Nov 2021 16:46:57 +0100</pubDate>
       
       <guid>https://nklingen.github.io/TheOfficeWebsite/docs/personality_analysis/</guid>
-      <description>Analysis of the character&amp;rsquo;s personalities #  In this section, we will analyze the characters background based on solely plain text form the wiki pages and their dialogue.
+      <description>Personality Analysis #  In this section, we will analyze the characters background based on solely plain text form the wiki pages and their dialogue.
 Most descriptive words #  We use the pages from The Office Wiki, for each character to extract some descriptive adjectives and verbs that define the character&amp;rsquo;s background, lifestyle and personality. There are many characters, so we will focus only of the 5 characters with most screen time in The Office, Michael, Dwight, Jim, Pam and Andy.</description>
     </item>
     
@@ -65,9 +65,8 @@ Most descriptive words #  We use the pages from The Office Wiki, for each charac
       
       <guid>https://nklingen.github.io/TheOfficeWebsite/docs/script/</guid>
       <description>The script #  Basic statistics #  We will use a subset of The Office script to gain a deeper analysis of the personality of the characters, their complexity and their interactions with each other.
-Let&amp;rsquo;s start by looking into which are the characters that have more lines.
-[insert here plot]
-We can see that the characters that have the most dialogue are, by far, Michael, Dwight, Jim, Pam and Andy.</description>
+Let&amp;rsquo;s start by examining the distribution of lines throughout the seasons.
+We can see that all of the seasons are more or less even, except for the first one. This is also because the season has only 6 episodes, but one should hold this in mind for further analysis.</description>
     </item>
     
     <item>
