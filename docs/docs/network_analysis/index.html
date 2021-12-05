@@ -3,12 +3,12 @@
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Add plot in/out degree distribution
- Analysis of degree distributions #  Inward degree distribution: We see a power-law distribution, which has a large majority of nodes with few in-going links, and few instances of nodes with large in-going degrees. We can explain this by noting that the main characters overwhelmingly have many ingoing links from more minor characters, without referencing those characters in return. While interacctions with main characters are significant for minor characters, they are insignificant in the storyline of the main-characters, leading to a one-sided relationship.">
+<meta name="description" content="Analysis of degree distributions #  We plot the degree distributions both before and after making the GCC which we used in the network.
+Inward degree distribution: We see a power-law distribution, which has a large majority of nodes with few in-going links, and few instances of nodes with large in-going degrees. We can explain this by noting that the main characters overwhelmingly have many ingoing links from more minor characters, without referencing those characters in return.">
 <meta name="theme-color" content="#FFFFFF">
 <meta name="color-scheme" content="light dark"><meta property="og:title" content="Network Analysis" />
-<meta property="og:description" content="Add plot in/out degree distribution
- Analysis of degree distributions #  Inward degree distribution: We see a power-law distribution, which has a large majority of nodes with few in-going links, and few instances of nodes with large in-going degrees. We can explain this by noting that the main characters overwhelmingly have many ingoing links from more minor characters, without referencing those characters in return. While interacctions with main characters are significant for minor characters, they are insignificant in the storyline of the main-characters, leading to a one-sided relationship." />
+<meta property="og:description" content="Analysis of degree distributions #  We plot the degree distributions both before and after making the GCC which we used in the network.
+Inward degree distribution: We see a power-law distribution, which has a large majority of nodes with few in-going links, and few instances of nodes with large in-going degrees. We can explain this by noting that the main characters overwhelmingly have many ingoing links from more minor characters, without referencing those characters in return." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://nklingen.github.io/TheOfficeWebsite/docs/network_analysis/" /><meta property="article:section" content="docs" />
 <meta property="article:published_time" content="2021-11-24T16:46:57+01:00" />
@@ -19,7 +19,7 @@
 <link rel="icon" href="/TheOfficeWebsite/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="/TheOfficeWebsite/book.min.46181bc93375ba932026e753b37c40e6ff8bb16a9ef770c78bcc663e4577b1ba.css" integrity="sha256-RhgbyTN1upMgJudTs3xA5v&#43;LsWqe93DHi8xmPkV3sbo=" crossorigin="anonymous">
   <script defer src="/TheOfficeWebsite/flexsearch.min.js"></script>
-  <script defer src="/TheOfficeWebsite/en.search.min.2eda01664ae2ed3a352802201b7dca91a8c89cce3759fb51e88796ef5d812447.js" integrity="sha256-LtoBZkri7To1KAIgG33KkajInM43WftR6IeW712BJEc=" crossorigin="anonymous"></script>
+  <script defer src="/TheOfficeWebsite/en.search.min.0ff5cfd183e8baf7421c43a066a2a4a1d855a4254c620ef0bcb9271aa0856d10.js" integrity="sha256-D/XP0YPouvdCHEOgZqKkodhVpCVMYg7wvLknGqCFbRA=" crossorigin="anonymous"></script>
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -223,6 +223,7 @@ https://github.com/alex-shpak/hugo-book
     <li>
       <ul>
         <li><a href="#analysis-of-degree-distributions">Analysis of degree distributions</a></li>
+        <li><a href="#plot-of-the-network">Plot of the Network</a></li>
       </ul>
     </li>
   </ul>
@@ -237,15 +238,19 @@ https://github.com/alex-shpak/hugo-book
 
       
       
-  <article class="markdown"><blockquote>
-<p>Add plot in/out degree distribution</p>
-</blockquote>
-<h3 id="analysis-of-degree-distributions">
+  <article class="markdown"><h3 id="analysis-of-degree-distributions">
   Analysis of degree distributions
   <a class="anchor" href="#analysis-of-degree-distributions">#</a>
 </h3>
+<p><img src="https://nklingen.github.io/TheOfficeWebsite//images/NetworkAnalysis.png" alt="viewership_seasons" /></p>
+<p>We plot the degree distributions both before and after making the GCC which we used in the network.</p>
 <p><strong>Inward degree distribution:</strong> We see a power-law distribution, which has a large majority of nodes with few in-going links, and few instances of nodes with large in-going degrees. We can explain this by noting that the main characters overwhelmingly have many ingoing links from more minor characters, without referencing those characters in return. While interacctions with main characters are significant for minor characters, they are insignificant in the storyline of the main-characters, leading to a one-sided relationship. Similarly, the power law defines that a network usually consists of a few hubs that most other nodes are connected to. The magnitude of nodes with 0 ingoing edges is reduced after discarding all nodes not in the GCC. However, we will observe many nodes with no ingoing edges.</p>
 <p><strong>Outward degree distribution:</strong> We here see a somewhat Poisson-like distribution. However, we notice some cases where some characters have no outgoing connections. These characters were not removed when creating the GCC as they must still have an ingoing-link connecting them to the giant component. More specifically, they are referenced by a more &ldquo;central&rdquo; character, without them referencing that character in return. This means that the vast majority of characters that are in the GCC have just one ingoing-link.</p>
+<h3 id="plot-of-the-network">
+  Plot of the Network
+  <a class="anchor" href="#plot-of-the-network">#</a>
+</h3>
+<p><img src="https://nklingen.github.io/TheOfficeWebsite//images/network.png" alt="viewership_seasons" /></p>
 </article>
  
       
@@ -290,6 +295,7 @@ https://github.com/alex-shpak/hugo-book
     <li>
       <ul>
         <li><a href="#analysis-of-degree-distributions">Analysis of degree distributions</a></li>
+        <li><a href="#plot-of-the-network">Plot of the Network</a></li>
       </ul>
     </li>
   </ul>
