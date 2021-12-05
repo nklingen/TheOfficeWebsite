@@ -17,9 +17,4 @@ We see that the large variance in Season 1 can be explained by viewers who only 
 
 ![viewership_season5]({{<baseurl>}}/images/viewership_season5.png)
 
-We see that the high variance in Season 5 can be explained by one episode in particular, that received a huge spike in viewership. Noteably, this episode, titled `Stress Relief` originally aired on February 1, 2009, immediately following NBC's broadcast of Super Bowl XLIII. Thus, they attracted a huge audience due to this prime time-slot. It had 22.91 million viewers - making it the most viewed episode of The Office.
-
-{{/*< plotly json="/images/test.json" height="400px" >*/}}
-
-{{/*< plotly json="{{<baseurl>}}/images/test.json" height="400px" >*/}}
-
+We see that the high variance in Season 5 can be explained by one episode in particular, that received a huge spike in viewership. Noteably, this episode, titled `Stress Relief` originally aired on February 1, 2009, immediately following NBC's broadcast of Super Bowl XLIII. This episode had 22.91 million viewers thanks to its prime time-slot - making it the most viewed episode of The Office. However, we can also conclude that the success was short-lived, and the viewership returned to normal immediately after, meaning the writers did not succeed in retaining the audience.
