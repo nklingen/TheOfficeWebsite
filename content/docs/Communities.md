@@ -14,7 +14,7 @@ We will use the [Louvain method](https://en.wikipedia.org/wiki/Louvain_method) t
 
 This yields 11 communities, which are illustrated in the image below. Each community has a diferent color and labels correspond to the characters that are at the center of each community.
 
-![ommunities_netowrk]({{<baseurl>}}/images/communities_netowrk.png)
+![communities_netowrk]({{<baseurl>}}/images/communities_netowrk.png)
 
 
 Now let's take a closer look at the members of each community. The following table shows the seven most connected characters, in descending order, for each community.

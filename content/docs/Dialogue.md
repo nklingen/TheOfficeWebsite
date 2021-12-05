@@ -18,7 +18,7 @@ We use the pages from [The Office Wiki](https://theoffice.fandom.com/wiki/Main_P
 
 ![Jim_Halpert_wiki]({{<baseurl>}}/images/wordclouds/Jim_Halpert_wiki.png)
 
-![Pam_Beesley_wiki]({{<baseurl>}}/images/wordclouds/Pam_Beesly_wiki.png)
+![Pam_Beesly_wiki]({{<baseurl>}}/images/wordclouds/Pam_Beesly_wiki.png)
 
 ![Andy_Bernard_wiki]({{<baseurl>}}/images/wordclouds/Andy_Bernard_wiki.png)
 
@@ -38,13 +38,13 @@ We use the pages from [The Office Wiki](https://theoffice.fandom.com/wiki/Main_P
 
 Now let's do the same, but looking at their dialogue. We can gain insights about the way they actually talk, which could show a lot about their character.
 
-![wordclouds/Michael_w]({{<baseurl>}}/images/wordclouds/michael_w.png)
+![wordclouds/michael_w]({{<baseurl>}}/images/wordclouds/michael_w.png)
 
-![wordclouds/Dwight_w]({{<baseurl>}}/images/wordclouds/dwight_w.png)
+![wordclouds/dwight_w]({{<baseurl>}}/images/wordclouds/dwight_w.png)
 
-![wordclouds/Jim_w]({{<baseurl>}}/images/wordclouds/jim_w.png)
+![wordclouds/jim_w]({{<baseurl>}}/images/wordclouds/jim_w.png)
 
-![wordclouds/Pam_w]({{<baseurl>}}/images/wordclouds/pam_w.png)
+![wordclouds/pam_w]({{<baseurl>}}/images/wordclouds/pam_w.png)
 
-![wordclouds/Andy_w]({{<baseurl>}}/images/wordclouds/andy_w.png)
+![wordclouds/andy_w]({{<baseurl>}}/images/wordclouds/andy_w.png)
 
