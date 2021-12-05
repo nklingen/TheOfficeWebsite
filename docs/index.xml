@@ -8,16 +8,6 @@
     <language>en-us</language>
     <lastBuildDate>Wed, 24 Nov 2021 16:46:57 +0100</lastBuildDate><atom:link href="https://nklingen.github.io/TheOfficeWebsite/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>About</title>
-      <link>https://nklingen.github.io/TheOfficeWebsite/docs/about/</link>
-      <pubDate>Wed, 24 Nov 2021 16:46:57 +0100</pubDate>
-      
-      <guid>https://nklingen.github.io/TheOfficeWebsite/docs/about/</guid>
-      <description>About #  This website was created by Blanca Robledo Díaz, Oliver Zeman and Natasha Ø. Klingenbrunn as a final project for the course 02805 Social graphs and interactions offered by the Technical University of Denmark.
-Each of the following sections will analyse and visualize different datasets relating to the office.</description>
-    </item>
-    
-    <item>
       <title>Communities</title>
       <link>https://nklingen.github.io/TheOfficeWebsite/docs/communities/</link>
       <pubDate>Wed, 24 Nov 2021 16:46:57 +0100</pubDate>
