@@ -1,5 +1,5 @@
 ---
-title: "Dialogue"
+title: "Script"
 date: 2021-11-24T16:46:57+01:00
 draft: false
 ---
@@ -25,7 +25,7 @@ We can see that the characters that have the most dialogue are, by far, Michael,
 From the script lines, we can see how characters interact with each other and how much.
 
 
-![ratings]({{<baseurl>}}/images/characters_interactions.png)
+![characters_interactions]({{<baseurl>}}/images/characters_interactions.png)
 
 We can see that the characters that interact with more characters are Michael, Dwight, Jim and Pam which are also the characters that also have the most lines. But we also see that the most part of these interactions are interal amongst these 4 individuals, so that their storylines are very intertwined, rather than each one having an individual one. 
 
