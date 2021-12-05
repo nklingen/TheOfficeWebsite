@@ -22,32 +22,29 @@ We use the pages from [The Office Wiki](https://theoffice.fandom.com/wiki/Main_P
 
 ![Andy_Bernard_wiki]({{<baseurl>}}/images/wordclouds/Andy_Bernard_wiki.png)
 
-One can see that a company jargon is very common amongst all three characters, such as "office", "staff", "job", "client" or "company", so we need to look into less common words.
+- One can see that a company jargon is very common amongst all three characters, such as "office", "staff", "job", "client" or "company".
 
-For example, if we look at Michael we find "parody", since he often makes parodies of characters or episodes. We alo find "manager", his current position, or "salesman", his past one.
+- `Michael` also has the words "parody", "manager", and "salesman". These words define his fondness for making pariodies of characters, as well as his positions throughout his career at Dunder Mifflin. 
 
-In Jim stands out "stamford", since he went to work to that branch for some period and "prank", since he is constantly pranking Dwight.
+- `Jim` has the words "stamford", another branch he was transferred to for a period, as well as "prank", since he is constantly pranking Dwight.
 
-For Pam we see "art", which is her hobby, and words that link her to Jim such as "wedding", "dating" or "relationship".
+- For `Pam` we see "art", which is her passion, and words that link her to Jim such as "wedding", "dating" or "relationship".
 
-For Dwight we have more descriptive words that match his personality, such as "german", making reference to his ancestry, "farm", where he lives or "sheriff", which he volunteers for in his spare time.
+- For `Dwight` we have more descriptive words that match his personality, such as "german", making reference to his ancestry, "farm", where he lives or "sheriff", which he volunteers for in his spare time.
 
-Finally, for Andy we see "salesman", his past position and "regional manager", what he becomes after Michael leaves.
+- Finally, for `Andy` we see "salesman", his past position and "regional manager", what he becomes after Michael leaves.
 
 ## Dialogue
 
 Now let's do the same, but looking at their dialogue. We can gain insights about the way they actually talk, which could show a lot about their character.
 
+![wordclouds/Michael_w]({{<baseurl>}}/images/wordclouds/michael_w.png)
 
-### Wordclouds
+![wordclouds/Dwight_w]({{<baseurl>}}/images/wordclouds/dwight_w.png)
 
-![Michael_w]({{<baseurl>}}/images/wordclouds/michael_w.png)
+![wordclouds/Jim_w]({{<baseurl>}}/images/wordclouds/jim_w.png)
 
-![Dwight_w]({{<baseurl>}}/images/wordclouds/dwight_w.png)
+![wordclouds/Pam_w]({{<baseurl>}}/images/wordclouds/pam_w.png)
 
-![Jim_w]({{<baseurl>}}/images/wordclouds/jim_w.png)
-
-![Pam_w]({{<baseurl>}}/images/wordclouds/pam_w.png)
-
-![Andy_w]({{<baseurl>}}/images/wordclouds/andy_w.png)
+![wordclouds/Andy_w]({{<baseurl>}}/images/wordclouds/andy_w.png)
 
