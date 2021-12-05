@@ -5,88 +5,15 @@
     <link>https://nklingen.github.io/TheOfficeWebsite/</link>
     <description>Recent content on The Office</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Wed, 24 Nov 2021 16:46:57 +0100</lastBuildDate><atom:link href="https://nklingen.github.io/TheOfficeWebsite/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://nklingen.github.io/TheOfficeWebsite/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Communities</title>
-      <link>https://nklingen.github.io/TheOfficeWebsite/docs/communities/</link>
+      <title>_index</title>
+      <link>https://nklingen.github.io/TheOfficeWebsite/docs/</link>
       <pubDate>Wed, 24 Nov 2021 16:46:57 +0100</pubDate>
       
-      <guid>https://nklingen.github.io/TheOfficeWebsite/docs/communities/</guid>
-      <description>Communities #  We will use the Louvain method to divide the network into communities of characters in order to see if we can find some intresting groupings from the network alone.
-Methodology #  Results #  This yields 11 communities, which are illustrated in the image below. Each community has a diferent color and labels correspond to the characters that are at the center of each community.
-Now let&amp;rsquo;s take a closer look at the members of each community.</description>
-    </item>
-    
-    <item>
-      <title>Directors</title>
-      <link>https://nklingen.github.io/TheOfficeWebsite/docs/directors/</link>
-      <pubDate>Wed, 24 Nov 2021 16:46:57 +0100</pubDate>
-      
-      <guid>https://nklingen.github.io/TheOfficeWebsite/docs/directors/</guid>
-      <description>From the Kaggle Dataset, we will also analyse the most frequent and most popular directors. There were 54 total directors throughout the show, many of which only directed 1 or 2 episodes. We will focus only on the top 10 most frequent directors.
-The graph above shows the 10 most frequent directors, sorted in descending order from left to right by # of episodes directed, with their respective average ratings.</description>
-    </item>
-    
-    <item>
-      <title>Network Analysis</title>
-      <link>https://nklingen.github.io/TheOfficeWebsite/docs/network_analysis/</link>
-      <pubDate>Wed, 24 Nov 2021 16:46:57 +0100</pubDate>
-      
-      <guid>https://nklingen.github.io/TheOfficeWebsite/docs/network_analysis/</guid>
-      <description>Analysis of degree distributions #  We plot the degree distributions both before and after making the GCC which we used in the network.
-Inward degree distribution: We see a power-law distribution, which has a large majority of nodes with few in-going links, and few instances of nodes with large in-going degrees. We can explain this by noting that the main characters overwhelmingly have many ingoing links from more minor characters, without referencing those characters in return.</description>
-    </item>
-    
-    <item>
-      <title>Personality Analysis</title>
-      <link>https://nklingen.github.io/TheOfficeWebsite/docs/personality_analysis/</link>
-      <pubDate>Wed, 24 Nov 2021 16:46:57 +0100</pubDate>
-      
-      <guid>https://nklingen.github.io/TheOfficeWebsite/docs/personality_analysis/</guid>
-      <description>Personality Analysis #  In this section, we will analyze the characters background based on solely plain text form the wiki pages and their dialogue.
-Most descriptive words #  We use the pages from The Office Wiki, for each character to extract some descriptive adjectives and verbs that define the character&amp;rsquo;s background, lifestyle and personality. There are many characters, so we will focus only of the 5 characters with most screen time in The Office, Michael, Dwight, Jim, Pam and Andy.</description>
-    </item>
-    
-    <item>
-      <title>Ratings</title>
-      <link>https://nklingen.github.io/TheOfficeWebsite/docs/ratings/</link>
-      <pubDate>Wed, 24 Nov 2021 16:46:57 +0100</pubDate>
-      
-      <guid>https://nklingen.github.io/TheOfficeWebsite/docs/ratings/</guid>
-      <description>Ratings per Season #  We overall see the rating climb in seasons 1 and 2, then peak in seasons 3. Season 4 slightly decreases in the averageratings, yet has a much higher variance. Thus the quality between episodes themselves varies much more in this season. We see the decrease in ratings continue until season 7, where it climbs again, before a dramatic decline in season 8.
-    window.</description>
-    </item>
-    
-    <item>
-      <title>Script</title>
-      <link>https://nklingen.github.io/TheOfficeWebsite/docs/script/</link>
-      <pubDate>Wed, 24 Nov 2021 16:46:57 +0100</pubDate>
-      
-      <guid>https://nklingen.github.io/TheOfficeWebsite/docs/script/</guid>
-      <description>The script #  Basic statistics #  We will use a subset of The Office script to gain a deeper analysis of the personality of the characters, their complexity and their interactions with each other.
-Let&amp;rsquo;s start by examining the distribution of lines throughout the seasons.
-We can see that all of the seasons are more or less even, except for the first one. This is also because the season has only 6 episodes, but one should hold this in mind for further analysis.</description>
-    </item>
-    
-    <item>
-      <title>Sentiment Analysis</title>
-      <link>https://nklingen.github.io/TheOfficeWebsite/docs/sentiment_analysis/</link>
-      <pubDate>Wed, 24 Nov 2021 16:46:57 +0100</pubDate>
-      
-      <guid>https://nklingen.github.io/TheOfficeWebsite/docs/sentiment_analysis/</guid>
-      <description>Sentiment Analysis #  In this section, we will see which characters are the saddest and which are the happiest and which are more emotionally stable and unstable. There is also drama thorughout the season, so we will explore the character&amp;rsquo;s emotional developement for the main characters. Finally, we explore the sentiment evolution throughout the seasons and the saddest and happiest characters.
-Sentiment profile of the characters #  From the dialogue, we can analyze the characters&#39; sentiments and determine the distribution of these.</description>
-    </item>
-    
-    <item>
-      <title>Viewership</title>
-      <link>https://nklingen.github.io/TheOfficeWebsite/docs/viewership/</link>
-      <pubDate>Wed, 24 Nov 2021 16:46:57 +0100</pubDate>
-      
-      <guid>https://nklingen.github.io/TheOfficeWebsite/docs/viewership/</guid>
-      <description>The first thing we immediately notice is that The Office steadily increases in viewership until season 5. However, it then begins declining in seasons 6 and 7, even before Michael leaves at the end at season 7. In Seasons 8 and 9 where Michael is no longer a part of the cast, the viewership sharply declines until the series ends.
-Moreover, we notice a wider variance in viewership in the first seasons.</description>
+      <guid>https://nklingen.github.io/TheOfficeWebsite/docs/</guid>
+      <description>This website was created by Blanca Robledo Díaz, Oliver Zeman and Natasha Ø. Klingenbrunn as a final project for the course 02805 Social graphs and interactions offered by the Technical University of Denmark.
+Each of the following sections will analyse and visualize different datasets relating to the office.</description>
     </item>
     
   </channel>
