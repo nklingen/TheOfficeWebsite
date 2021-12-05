@@ -18,18 +18,7 @@ Each of the following sections will analyse and visualize different datasets rel
     </item>
     
     <item>
-      <title>Communities</title>
-      <link>https://nklingen.github.io/TheOfficeWebsite/docs/communities/</link>
-      <pubDate>Wed, 24 Nov 2021 16:46:57 +0100</pubDate>
-      
-      <guid>https://nklingen.github.io/TheOfficeWebsite/docs/communities/</guid>
-      <description>Communities #  We will use the Louvain method to divide the network into communities of characters in order to see if we can find some intresting groupings from the network alone.
-Methodology #  Results #  This yields 11 communities, which are illustrated in the image below. Each community has a diferent color and labels correspond to the characters that are at the center of each community.
-Now let&amp;rsquo;s take a closer look at the members of each community.</description>
-    </item>
-    
-    <item>
-      <title>Dialogue</title>
+      <title>Characters&#39; personalities</title>
       <link>https://nklingen.github.io/TheOfficeWebsite/docs/dialogue/</link>
       <pubDate>Wed, 24 Nov 2021 16:46:57 +0100</pubDate>
       
@@ -39,25 +28,14 @@ Most descriptive words #  We use the pages from The Office Wiki, for each charac
     </item>
     
     <item>
-      <title>Dialogue</title>
-      <link>https://nklingen.github.io/TheOfficeWebsite/docs/script/</link>
+      <title>Communities</title>
+      <link>https://nklingen.github.io/TheOfficeWebsite/docs/communities/</link>
       <pubDate>Wed, 24 Nov 2021 16:46:57 +0100</pubDate>
       
-      <guid>https://nklingen.github.io/TheOfficeWebsite/docs/script/</guid>
-      <description>The script #  Basic statistics #  We will use a subset of The Office script to gain a deeper analysis of the personality of the characters, their complexity and their interactions with each other.
-Let&amp;rsquo;s start by looking into which are the characters that have more lines.
-[insert here plot]
-We can see that the characters that have the most dialogue are, by far, Michael, Dwight, Jim, Pam and Andy.</description>
-    </item>
-    
-    <item>
-      <title>Dialogue</title>
-      <link>https://nklingen.github.io/TheOfficeWebsite/docs/sentiment_analysis/</link>
-      <pubDate>Wed, 24 Nov 2021 16:46:57 +0100</pubDate>
-      
-      <guid>https://nklingen.github.io/TheOfficeWebsite/docs/sentiment_analysis/</guid>
-      <description>Sentiment Analysis #  In this section, we will see which characters are the saddest and which are the happiest and which are more emotionally stable and unstable. There is also drama thorughout the season, so we will explore the character&amp;rsquo;s emotional developement for the main characters. Finally, we explore the sentiment evolution throughout the seasons and the saddest and happiest characters.
-Sentiment profile #  From the dialogue, we can analyze the characters&#39; sentiments and determine the distribution of these.</description>
+      <guid>https://nklingen.github.io/TheOfficeWebsite/docs/communities/</guid>
+      <description>Communities #  We will use the Louvain method to divide the network into communities of characters in order to see if we can find some intresting groupings from the network alone.
+Methodology #  Results #  This yields 11 communities, which are illustrated in the image below. Each community has a diferent color and labels correspond to the characters that are at the center of each community.
+Now let&amp;rsquo;s take a closer look at the members of each community.</description>
     </item>
     
     <item>
@@ -78,6 +56,28 @@ Sentiment profile #  From the dialogue, we can analyze the characters&#39; senti
       <guid>https://nklingen.github.io/TheOfficeWebsite/docs/ratings/</guid>
       <description>Ratings per Season #  We overall see the rating climb in seasons 1 and 2, then peak in seasons 3. Season 4 slightly decreases in the averageratings, yet has a much higher variance. Thus the quality between episodes themselves varies much more in this season. We see the decrease in ratings continue until season 7, where it climbs again, before a dramatic decline in season 8.
 Analysis of Top Episodes #    Goodbye Michael: This episode is the final episode to feature Michael Scott as the series&amp;rsquo;s main character, and is regarded by many critics as the &amp;ldquo;series finale&amp;rdquo;, as the series received much criticism for a decline in quality after Michael&amp;rsquo;s departure.</description>
+    </item>
+    
+    <item>
+      <title>Script</title>
+      <link>https://nklingen.github.io/TheOfficeWebsite/docs/script/</link>
+      <pubDate>Wed, 24 Nov 2021 16:46:57 +0100</pubDate>
+      
+      <guid>https://nklingen.github.io/TheOfficeWebsite/docs/script/</guid>
+      <description>The script #  Basic statistics #  We will use a subset of The Office script to gain a deeper analysis of the personality of the characters, their complexity and their interactions with each other.
+Let&amp;rsquo;s start by looking into which are the characters that have more lines.
+[insert here plot]
+We can see that the characters that have the most dialogue are, by far, Michael, Dwight, Jim, Pam and Andy.</description>
+    </item>
+    
+    <item>
+      <title>Sentiment Analysis</title>
+      <link>https://nklingen.github.io/TheOfficeWebsite/docs/sentiment_analysis/</link>
+      <pubDate>Wed, 24 Nov 2021 16:46:57 +0100</pubDate>
+      
+      <guid>https://nklingen.github.io/TheOfficeWebsite/docs/sentiment_analysis/</guid>
+      <description>Sentiment Analysis #  In this section, we will see which characters are the saddest and which are the happiest and which are more emotionally stable and unstable. There is also drama thorughout the season, so we will explore the character&amp;rsquo;s emotional developement for the main characters. Finally, we explore the sentiment evolution throughout the seasons and the saddest and happiest characters.
+Sentiment profile of the characters #  From the dialogue, we can analyze the characters&#39; sentiments and determine the distribution of these.</description>
     </item>
     
     <item>
