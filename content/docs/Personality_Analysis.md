@@ -20,7 +20,7 @@ Generally, we see that a company jargon is very common amongst all three charact
 
 
 ![Dwight_Schrute_wiki]({{<baseurl>}}/images/wordclouds/Dwight_Schrute_wiki.png)
-For `Dwight` we see more descriptive words that match his personality, such as "german", making reference to his ancestry, "farm", where he lives or "sheriff", which he volunteers for in his spare time. We also very interestingly see the words "family" and "child" amongst the most prominent words. Lastly, there are some words related to his fighting instinct, such as "dodge", "attack", and "fight" and "war". Lastly, we see "beets" and "bears".  
+For `Dwight` we see more descriptive words that match his personality, such as "german", making reference to his ancestry, "farm", where he lives or "sheriff", which he volunteers for in his spare time. We also very interestingly see the words "family" and "child" amongst the most prominent words. There are even words related to his strong fighting instinct, such as "dodge", "attack", and "fight" and "war". Lastly, we see "beets" and "bears".  
 
 ![jim-dwight]({{<baseurl>}}/images/jim-dwight.gif)
 
@@ -37,6 +37,8 @@ Finally, for `Andy` we see "new", potentially linked to the fact that he joined 
 ## Dialogue
 
 Now let's do the same, but looking at their dialogue. We can gain insights about the way they actually talk, which could show a lot about their character.
+
+> Blanca is re-doing with word collocations
 
 ![michael_w]({{<baseurl>}}/images/wordclouds/michael_w.PNG)
 
