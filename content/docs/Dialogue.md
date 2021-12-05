@@ -41,13 +41,13 @@ Now let's do the same, but looking at their dialogue. We can gain insights about
 
 ### Wordclouds
 
-![michael_w]({{<baseurl>}}/images/wordclouds/michael_w.png)
+![wordclouds/michael_w]({{<baseurl>}}/images/wordclouds/michael_w.png)
 
-![dwight_w]({{<baseurl>}}/images/wordclouds/dwight_w.png)
+![wordclouds/dwight_w]({{<baseurl>}}/images/wordclouds/dwight_w.png)
 
-![jim_w]({{<baseurl>}}/images/wordclouds/jim_w.png)
+![wordclouds/jim_w]({{<baseurl>}}/images/wordclouds/jim_w.png)
 
-![pam_w]({{<baseurl>}}/images/wordclouds/pam_w.png)
+![wordclouds/pam_w]({{<baseurl>}}/images/wordclouds/pam_w.png)
 
-![andy_w]({{<baseurl>}}/images/wordclouds/andy_w.png)
+![wordclouds/andy_w]({{<baseurl>}}/images/wordclouds/andy_w.png)
 
