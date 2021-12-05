@@ -38,13 +38,13 @@ We use the pages from [The Office Wiki](https://theoffice.fandom.com/wiki/Main_P
 
 Now let's do the same, but looking at their dialogue. We can gain insights about the way they actually talk, which could show a lot about their character.
 
-![wordclouds/michael_w]({{<baseurl>}}/images/wordclouds/michael_w.png)
+![michael_w]({{<baseurl>}}/images/wordclouds/michael_w.PNG)
 
-![wordclouds/dwight_w]({{<baseurl>}}/images/wordclouds/dwight_w.png)
+![dwight_w]({{<baseurl>}}/images/wordclouds/dwight_w.PNG)
 
-![wordclouds/jim_w]({{<baseurl>}}/images/wordclouds/jim_w.png)
+![jim_w]({{<baseurl>}}/images/wordclouds/jim_w.PNG)
 
-![wordclouds/pam_w]({{<baseurl>}}/images/wordclouds/pam_w.png)
+![pam_w]({{<baseurl>}}/images/wordclouds/pam_w.PNG)
 
-![wordclouds/andy_w]({{<baseurl>}}/images/wordclouds/andy_w.png)
+![andy_w]({{<baseurl>}}/images/wordclouds/andy_w.PNG)
 
