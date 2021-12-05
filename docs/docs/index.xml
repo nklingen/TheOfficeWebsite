@@ -18,6 +18,49 @@ Each of the following sections will analyse and visualize different datasets rel
     </item>
     
     <item>
+      <title>Communities</title>
+      <link>https://nklingen.github.io/TheOfficeWebsite/docs/communities/</link>
+      <pubDate>Wed, 24 Nov 2021 16:46:57 +0100</pubDate>
+      
+      <guid>https://nklingen.github.io/TheOfficeWebsite/docs/communities/</guid>
+      <description>Communities #  We will use the Louvain method to divide the network into communities of characters in order to see if we can find some intresting groupings from the network alone.
+Methodology #  Results #  This yields 11 communities, which are illustrated in the image below. Each community has a diferent color and labels correspond to the characters that are at the center of each community.
+Now let&amp;rsquo;s take a closer look at the members of each community.</description>
+    </item>
+    
+    <item>
+      <title>Dialogue</title>
+      <link>https://nklingen.github.io/TheOfficeWebsite/docs/dialogue/</link>
+      <pubDate>Wed, 24 Nov 2021 16:46:57 +0100</pubDate>
+      
+      <guid>https://nklingen.github.io/TheOfficeWebsite/docs/dialogue/</guid>
+      <description>Analysis of the character&amp;rsquo;s personalities #  In this section, we will analyze the characters background based on solely plain text form the wiki pages and their dialogue.
+Most descriptive words #  We use the pages from The Office Wiki, for each character to extract some descriptive adjectives and verbs that define the character&amp;rsquo;s background, lifestyle and personality. There are many characters, so we will focus only of the 5 characters with most screen time in The Office, Michael, Dwight, Jim, Pam and Andy.</description>
+    </item>
+    
+    <item>
+      <title>Dialogue</title>
+      <link>https://nklingen.github.io/TheOfficeWebsite/docs/script/</link>
+      <pubDate>Wed, 24 Nov 2021 16:46:57 +0100</pubDate>
+      
+      <guid>https://nklingen.github.io/TheOfficeWebsite/docs/script/</guid>
+      <description>The script #  Basic statistics #  We will use a subset of The Office script to gain a deeper analysis of the personality of the characters, their complexity and their interactions with each other.
+Let&amp;rsquo;s start by looking into which are the characters that have more lines.
+[insert here plot]
+We can see that the characters that have the most dialogue are, by far, Michael, Dwight, Jim, Pam and Andy.</description>
+    </item>
+    
+    <item>
+      <title>Dialogue</title>
+      <link>https://nklingen.github.io/TheOfficeWebsite/docs/sentiment_analysis/</link>
+      <pubDate>Wed, 24 Nov 2021 16:46:57 +0100</pubDate>
+      
+      <guid>https://nklingen.github.io/TheOfficeWebsite/docs/sentiment_analysis/</guid>
+      <description>Sentiment Analysis #  In this section, we will see which characters are the saddest and which are the happiest and which are more emotionally stable and unstable. There is also drama thorughout the season, so we will explore the character&amp;rsquo;s emotional developement for the main characters. Finally, we explore the sentiment evolution throughout the seasons and the saddest and happiest characters.
+Sentiment profile #  From the dialogue, we can analyze the characters&#39; sentiments and determine the distribution of these.</description>
+    </item>
+    
+    <item>
       <title>Network Analysis</title>
       <link>https://nklingen.github.io/TheOfficeWebsite/docs/network_analysis/</link>
       <pubDate>Wed, 24 Nov 2021 16:46:57 +0100</pubDate>
