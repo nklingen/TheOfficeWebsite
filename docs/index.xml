@@ -18,16 +18,6 @@ Each of the following sections will analyse and visualize different datasets rel
     </item>
     
     <item>
-      <title>Characters&#39; personalities</title>
-      <link>https://nklingen.github.io/TheOfficeWebsite/docs/dialogue/</link>
-      <pubDate>Wed, 24 Nov 2021 16:46:57 +0100</pubDate>
-      
-      <guid>https://nklingen.github.io/TheOfficeWebsite/docs/dialogue/</guid>
-      <description>Analysis of the character&amp;rsquo;s personalities #  In this section, we will analyze the characters background based on solely plain text form the wiki pages and their dialogue.
-Most descriptive words #  We use the pages from The Office Wiki, for each character to extract some descriptive adjectives and verbs that define the character&amp;rsquo;s background, lifestyle and personality. There are many characters, so we will focus only of the 5 characters with most screen time in The Office, Michael, Dwight, Jim, Pam and Andy.</description>
-    </item>
-    
-    <item>
       <title>Communities</title>
       <link>https://nklingen.github.io/TheOfficeWebsite/docs/communities/</link>
       <pubDate>Wed, 24 Nov 2021 16:46:57 +0100</pubDate>
@@ -46,6 +36,16 @@ Now let&amp;rsquo;s take a closer look at the members of each community.</descri
       <guid>https://nklingen.github.io/TheOfficeWebsite/docs/network_analysis/</guid>
       <description>Add plot in/out degree distribution
  Analysis of degree distributions #  Inward degree distribution: We see a power-law distribution, which has a large majority of nodes with few in-going links, and few instances of nodes with large in-going degrees. We can explain this by noting that the main characters overwhelmingly have many ingoing links from more minor characters, without referencing those characters in return. While interacctions with main characters are significant for minor characters, they are insignificant in the storyline of the main-characters, leading to a one-sided relationship.</description>
+    </item>
+    
+    <item>
+      <title>Personality Analysis</title>
+      <link>https://nklingen.github.io/TheOfficeWebsite/docs/dialogue/</link>
+      <pubDate>Wed, 24 Nov 2021 16:46:57 +0100</pubDate>
+      
+      <guid>https://nklingen.github.io/TheOfficeWebsite/docs/dialogue/</guid>
+      <description>Analysis of the character&amp;rsquo;s personalities #  In this section, we will analyze the characters background based on solely plain text form the wiki pages and their dialogue.
+Most descriptive words #  We use the pages from The Office Wiki, for each character to extract some descriptive adjectives and verbs that define the character&amp;rsquo;s background, lifestyle and personality. There are many characters, so we will focus only of the 5 characters with most screen time in The Office, Michael, Dwight, Jim, Pam and Andy.</description>
     </item>
     
     <item>

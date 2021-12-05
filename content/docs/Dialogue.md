@@ -1,5 +1,5 @@
 ---
-title: "Characters' personalities"
+title: "Personality Analysis"
 date: 2021-11-24T16:46:57+01:00
 draft: false
 ---
@@ -22,7 +22,7 @@ Generally, we see that a company jargon is very common amongst all three charact
 ![Dwight_Schrute_wiki]({{<baseurl>}}/images/wordclouds/Dwight_Schrute_wiki.png)
 For `Dwight` we see more descriptive words that match his personality, such as "german", making reference to his ancestry, "farm", where he lives or "sheriff", which he volunteers for in his spare time. We also very interestingly see the words "family" and "child" amongst the most prominent words. Lastly, there are some words related to his fighting instinct, such as "dodge", "attack", and "fight" and "war". Lastly, we see "beets" and "bears".  
 
-![jim-dwight]({{<baseurl>}}/images/jim-dwight)
+![jim-dwight]({{<baseurl>}}/images/jim-dwight.gif)
 
 ![Jim_Halpert_wiki]({{<baseurl>}}/images/wordclouds/Jim_Halpert_wiki.png)
 `Jim` has the words "stamford", another branch he was transferred to for a period, as well as "prank", since he is constantly pranking Dwight. He has some links to his family with Pam as well, such as "daughter" and "relationship".
