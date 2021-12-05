@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Communities #  We will use the Louvain method to divide the network into communities of characters in order to see if we can find some intresting groupings from the network alone.
+Methodology #  Results #  This yields 11 communities, which are illustrated in the image below. Each community has a diferent color and labels correspond to the characters that are at the center of each community.
+Now let&rsquo;s take a closer look at the members of each community.">
+<meta name="theme-color" content="#FFFFFF">
+<meta name="color-scheme" content="light dark"><meta property="og:title" content="Communities" />
+<meta property="og:description" content="Communities #  We will use the Louvain method to divide the network into communities of characters in order to see if we can find some intresting groupings from the network alone.
+Methodology #  Results #  This yields 11 communities, which are illustrated in the image below. Each community has a diferent color and labels correspond to the characters that are at the center of each community.
+Now let&rsquo;s take a closer look at the members of each community." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://nklingen.github.io/TheOfficeWebsite/docs/communities/" /><meta property="article:section" content="docs" />
+<meta property="article:published_time" content="2021-11-24T16:46:57+01:00" />
+<meta property="article:modified_time" content="2021-11-24T16:46:57+01:00" />
+
+<title>Communities | The Office</title>
+<link rel="manifest" href="/TheOfficeWebsite/manifest.json">
+<link rel="icon" href="/TheOfficeWebsite/favicon.png" type="image/x-icon">
+<link rel="stylesheet" href="/TheOfficeWebsite/book.min.46181bc93375ba932026e753b37c40e6ff8bb16a9ef770c78bcc663e4577b1ba.css" integrity="sha256-RhgbyTN1upMgJudTs3xA5v&#43;LsWqe93DHi8xmPkV3sbo=" crossorigin="anonymous">
+  <script defer src="/TheOfficeWebsite/flexsearch.min.js"></script>
+  <script defer src="/TheOfficeWebsite/en.search.min.a27deb20072a2183f7187a3a70e8564ae70635a8107c1af3bb55da2444547077.js" integrity="sha256-on3rIAcqIYP3GHo6cOhWSucGNagQfBrzu1XaJERUcHc=" crossorigin="anonymous"></script>
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+  
+</head>
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/TheOfficeWebsite/"><span>The Office</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://nklingen.github.io/TheOfficeWebsite/docs/about/" class="">About</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://nklingen.github.io/TheOfficeWebsite/docs/communities/" class=" active">Communities</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://nklingen.github.io/TheOfficeWebsite/docs/dialogue/" class="">Dialogue</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://nklingen.github.io/TheOfficeWebsite/docs/script/" class="">Dialogue</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://nklingen.github.io/TheOfficeWebsite/docs/sentiment_analysis/" class="">Dialogue</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://nklingen.github.io/TheOfficeWebsite/docs/network_analysis/" class="">Network Analysis</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://nklingen.github.io/TheOfficeWebsite/docs/ratings/" class="">Ratings</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://nklingen.github.io/TheOfficeWebsite/docs/viewership/" class="">Viewership</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var a=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(b){localStorage.setItem("menu.scrollTop",a.scrollTop)}),a.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/TheOfficeWebsite/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>Communities</strong>
+
+  <label for="toc-control">
+    
+    <img src="/TheOfficeWebsite/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#methodology">Methodology</a></li>
+    <li><a href="#results">Results</a></li>
+  </ul>
+</nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown"><h1 id="communities">
+  Communities
+  <a class="anchor" href="#communities">#</a>
+</h1>
+<p>We will use the <a href="https://en.wikipedia.org/wiki/Louvain_method">Louvain method</a> to divide the network into communities of characters in order to see if we can find some intresting groupings from the network alone.</p>
+<h2 id="methodology">
+  Methodology
+  <a class="anchor" href="#methodology">#</a>
+</h2>
+<h2 id="results">
+  Results
+  <a class="anchor" href="#results">#</a>
+</h2>
+<p>This yields 11 communities, which are illustrated in the image below. Each community has a diferent color and labels correspond to the characters that are at the center of each community.</p>
+<p><img src="https://nklingen.github.io/TheOfficeWebsite//images/communities_netowrk.png" alt="ratings" /></p>
+<p>Now let&rsquo;s take a closer look at the members of each community. The following table shows the seven most connected characters, in descending order, for each community.</p>
+<table>
+<thead>
+<tr>
+<th>1</th>
+<th>2</th>
+<th>3</th>
+<th>4</th>
+<th>5</th>
+<th>6</th>
+<th>7</th>
+<th>8</th>
+<th>9</th>
+<th>10</th>
+<th>11</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Andy Bernard</td>
+<td>Erin Hannon</td>
+<td>Dwight Schrute</td>
+<td>Jim Halpert</td>
+<td>Robert California</td>
+<td>Michael Scott</td>
+<td>Kelly Kapoor</td>
+<td>David Wallace</td>
+<td>Phyllis Vance</td>
+<td>Kevin Malone</td>
+<td>Jan Levinson</td>
+</tr>
+<tr>
+<td>Walter Bernard Jr.</td>
+<td>Erin&rsquo;s Mother</td>
+<td>Angela Martin</td>
+<td>Pam Beesly</td>
+<td>Toby Flenderson</td>
+<td>Holly Flax</td>
+<td>Darryl Philbin</td>
+<td>Ryan Howard</td>
+<td>Karen Filippelli</td>
+<td>Stanley Hudson</td>
+<td>Oscar Martinez</td>
+</tr>
+<tr>
+<td>Walter Bernard Sr.</td>
+<td>Erin&rsquo;s Father</td>
+<td>Robert Lipton</td>
+<td>Cecelia Halpert</td>
+<td>Gabe Lewis</td>
+<td>Creed Bratton</td>
+<td>Deangelo Vickers</td>
+<td>Charles Miner</td>
+<td>Bob Vance</td>
+<td>Cynthia</td>
+<td>Michael Scarn</td>
+</tr>
+<tr>
+<td>Ellen Bernard</td>
+<td>Irene</td>
+<td>Mose Schrute</td>
+<td>Phillip Halpert</td>
+<td>Todd Packer</td>
+<td>Scranton Strangler</td>
+<td>Pete Miller</td>
+<td>Nellie Bertram</td>
+<td>Hannah Smoterich-Barr</td>
+<td>Melissa Hudson</td>
+<td>Goldenface</td>
+</tr>
+<tr>
+<td>Nick</td>
+<td>Glenn (Florida)</td>
+<td>Garbage</td>
+<td>Helene Beesly</td>
+<td>Jo Bennett</td>
+<td>Ed Truck</td>
+<td>Julius Erving</td>
+<td>Alan Brand</td>
+<td>Josh Porter</td>
+<td>Teri Hudson</td>
+<td>Pizza Delivery Kid</td>
+</tr>
+<tr>
+<td>Sadiq</td>
+<td>Reed</td>
+<td>Aunt Shirley</td>
+<td>Betsy Halpert</td>
+<td>Cathy Becker</td>
+<td>Michael Klump</td>
+<td>Clark Green</td>
+<td>David Brent</td>
+<td>Danny Cordray</td>
+<td>Stacy</td>
+<td>Astrid Levinson</td>
+</tr>
+<tr>
+<td>Cathy Simms</td>
+<td></td>
+<td>Meredith Palmer</td>
+<td>William Beesly</td>
+<td>Jordan Garfield</td>
+<td>Mr. Flax</td>
+<td>Jada Philbin</td>
+<td>Neil Godwin</td>
+<td>Phyllis' Sister</td>
+<td>Abby</td>
+<td>Catherine Zeta-Scarn</td>
+</tr>
+</tbody>
+</table>
+<p>The groupings found by the Louvain algorithm proof to be quite insightful, since there are some parallelisms between the characters placed in the same group and how close they are in the series.</p>
+<p>For example, if we look at community 4, it is formed up of Jim and Pam, their children and family relatives of both. This implies a strong bond between the both of them, and there is one indeed, since they have the main romance storyline throught the series and end up marrying and having a family of their own.</p>
+<p>Similarly, in 3 we find Angela and Dwight to be the main characters in that community which have an on-and-off relationship during the series and also end up marrying in the last episode. In that same category, we find Robert Lipton, which is Angela´s ex-husband, as wll as Angela&rsquo;s cat, Garbage, and some of Dwight&rsquo;s family members.</p>
+<p>The trend where romantic partners and family members being placed within the same community is visible: Michael and Holly in 1, Phyllis and Bob in 9, and Andy&rsquo;s and Erin&rsquo;s families in 1 and 2 respectively, amongst others. In case of community 8, corporate characters are grouped together.</p>
+<p>However, there are some character&rsquo;s that don&rsquo;t have an obvious bond with the rest of the characters of the community they belong to. For example, Meredith has little interaction with Angela or Dwight, or Oscar with Jan. We would also expect Ryan and Kelly to be placed together, since they are one of the show&rsquo;s couples with most drama.</p>
+<p>All in all, the communities found from the network have in general a strong cohesion. It is also intresting to point out that these communities are mostly tied together by the personal relationships instead of the categorization we chose for the <a href="Network_Analysis.md">Network analysis</a> section (main characters, warehouse workers, family members, etc).</p>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+
+
+
+</div>
+
+
+
+  <script>(function(){function a(c){const a=window.getSelection(),b=document.createRange();b.selectNodeContents(c),a.removeAllRanges(),a.addRange(b)}document.querySelectorAll("pre code").forEach(b=>{b.addEventListener("click",function(c){a(b.parentElement),navigator.clipboard&&navigator.clipboard.writeText(b.parentElement.textContent)})})})()</script>
+
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      <div class="book-toc-content">
+        
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#methodology">Methodology</a></li>
+    <li><a href="#results">Results</a></li>
+  </ul>
+</nav>
+
+
+ 
+      </div>
+    </aside>
+    
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
