@@ -63,3 +63,12 @@ For Pam one can observe she mainly interacts with Michael in the office, since s
 ![andy_w]({{<baseurl>}}/images/wordclouds/andy_w.PNG)
 
 Finally, from Andy, one can see that he uses "right" a lot, which could make reference to him being a people-pleaser and agreeing to everything. We also see Erin inhis wordcloud, which is his girlfriend.
+
+
+### That's what she said!
+
+Any The Office fan knows Michael Scott's most famous phrase ...
+
+![thats-what-she-said]({{<baseurl>}}/images/thats-what-she-said.gif)
+
+In total Michael uses this joke 24 times throughout the series!
