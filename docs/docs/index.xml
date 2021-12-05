@@ -19,6 +19,16 @@ Now let&amp;rsquo;s take a closer look at the members of each community.</descri
     </item>
     
     <item>
+      <title>Directors</title>
+      <link>https://nklingen.github.io/TheOfficeWebsite/docs/directors/</link>
+      <pubDate>Wed, 24 Nov 2021 16:46:57 +0100</pubDate>
+      
+      <guid>https://nklingen.github.io/TheOfficeWebsite/docs/directors/</guid>
+      <description>From the Kaggle Dataset, we will also analyse the most frequent and most popular directors. There were 54 total directors throughout the show, many of which only directed 1 or 2 episodes. We will focus only on the top 10 most frequent directors.
+The graph above shows the 10 most frequent directors, sorted in descending order from left to right by # of episodes directed, with their respective average ratings.</description>
+    </item>
+    
+    <item>
       <title>Network Analysis</title>
       <link>https://nklingen.github.io/TheOfficeWebsite/docs/network_analysis/</link>
       <pubDate>Wed, 24 Nov 2021 16:46:57 +0100</pubDate>
