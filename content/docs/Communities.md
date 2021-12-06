@@ -6,13 +6,14 @@ draft: false
 
 # Communities
 
-We will use the [Louvain method](https://en.wikipedia.org/wiki/Louvain_method) to divide the network into communities of characters in order to see if we can find some intresting groupings from the network alone.
 
 ## Methodology
 
+We will use the [Louvain method](https://en.wikipedia.org/wiki/Louvain_method) to detect communities within the larger network. This algorithm is a [hierarchical clustering algorithm](https://neo4j.com/docs/graph-data-science/current/algorithms/louvain/), that recursively merges smaller communities in order to maximize the modularity score, which measures how densely connected the nodes are within the same community.
+
 ## Results
 
-This yields 11 communities, which are illustrated in the image below. Each community has a diferent color and labels correspond to the characters that are at the center of each community.
+The Louvain method yielded the following 11 communities, illustrated in the table below. In addition, the communities are plotted using Force Atlas, with nodes colored by community and labeled with the largest character in each community. 
 
 ![communities_network]({{<baseurl>}}/images/communities_network.png)
 
@@ -30,15 +31,32 @@ Now let's take a closer look at the members of each community. The following tab
 | Cathy Simms        |                 | Meredith Palmer | William Beesly  | Jordan Garfield   | Mr. Flax           | Jada Philbin     | Neil Godwin    | Phyllis' Sister       | Abby           | Catherine Zeta-Scarn |
 
 
-The groupings found by the Louvain algorithm proof to be quite insightful, since there are some parallelisms between the characters placed in the same group and how close they are in the series.
+## Analysis
+
+The groupings found by the Louvain algorithm prove to be very insightful, as we can find many reasonable links between the communities and the series. 
+
+We see in `Community 1` Andy and his family.
+
+In `Community 2`, we find Erin and her family.
+
+Next, in `Community 3` we find Angela and Dwight, who share an on-and-off relationship during the series and get married in the last episode. In that same category, we also find Robert Lipton, Angela´s ex-husband, as well as Angela's cat, Garbage, and some of Dwight's family members, including Mose.
+
+`Community 4` consists of Jim and Pam, their children, and their relatives. We expect to find them together, as their relationship is the many storyline throughout the series. 
+
+`Community 5` consists of many of the executives from the later seasons, including Jo Bennett, Gabe, and Robert California. We also notice the Toby is put in this group, which can be explained by the fact that he has very few meaningful connections to the rest of the employees, and mainly is involved in HR issues and disciplinary meetings where other executives also are present.
+
+In `Community 6`, we find Michael and Holly. Very oddly, Creed and the Scranton Strangler are also in this group.
+
+In `Community 7` we also find an unlikely pairing. We would have expected Kelly and Ryan to be placed together, as they were also in a very toxic drama-filled on-and-off relationship throughout much of the series. However, Kelly was placed in a community with Darryl, with whom she only shared a brief relationship.
+
+In `Community 8` we find another group of executives, including Alan Brand, David Wallace, Charles Miner, and Ryan Howard. In this regards, we find that Ryan was placed with respect to his position (as a previous executive) rather than his interpersonal relationships.
+
+`Community 9` consists of Phyllis and her husband Bob Vance, as well as Karen Filipelli.
 
 
-For example, if we look at community 4, it is formed up of Jim and Pam, their children and family relatives of both. This implies a strong bond between the both of them, and there is one indeed, since they have the main romance storyline throught the series and end up marrying and having a family of their own.
 
- Similarly, in 3 we find Angela and Dwight to be the main characters in that community which have an on-and-off relationship during the series and also end up marrying in the last episode. In that same category, we find Robert Lipton, which is Angela´s ex-husband, as wll as Angela's cat, Garbage, and some of Dwight's family members. 
+We notice a clear trend where romantic partners and families are placed together, including Michael and Holly in 1, Phyllis and Bob in 9, and Andy's and Erin's families in 1 and 2 respectively, amongst others. 
 
-The trend where romantic partners and family members being placed within the same community is visible: Michael and Holly in 1, Phyllis and Bob in 9, and Andy's and Erin's families in 1 and 2 respectively, amongst others. In case of community 8, corporate characters are grouped together.
+While many minor characters seem to be placed with some randomness, there are also some significant characters that didn't seem to have an obvious bond with the rest of the characters in their community. For example, Meredith does not have a particular connection to Angela or Dwight, neither does Oscar to Jan, nor Creed to Michael.
 
-However, there are some character's that don't have an obvious bond with the rest of the characters of the community they belong to. For example, Meredith has little interaction with Angela or Dwight, or Oscar with Jan. We would also expect Ryan and Kelly to be placed together, since they are one of the show's couples with most drama.
-
-All in all, the communities found from the network have in general a strong cohesion. It is also intresting to point out that these communities are mostly tied together by the personal relationships instead of the categorization we chose for the [Network analysis](Network_Analysis.md) section (main characters, warehouse workers, family members, etc).
+All in all, the communities detected by the algorithm had a strong cohesion. It is also intresting to point out that these communities are mostly tied together by the personal relationships instead of the categories we chose for the [Network analysis](Network_Analysis.md) section (main characters, warehouse workers, family members, etc).
