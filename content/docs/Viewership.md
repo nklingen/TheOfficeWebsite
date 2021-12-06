@@ -8,7 +8,7 @@ draft: false
 
 ![viewership_seasons]({{<baseurl>}}/images/viewership_seasons.png)
 
-The first thing we immediately notice is that The Office steadily increases in viewership until season 5. However, it then begins declining in seasons 6 and 7, even before Michael leaves at the end at season 7. In Seasons 8 and 9 where Michael is no longer a part of the cast, the viewership sharply declines until the series ends.
+The first thing we immediately notice is that The Office steadily increases in viewership until season 5. However, it then begins declining in seasons 6 and 7, even before Michael leaves at the end at season 7. In Seasons 8 and 9, when Michael is no longer a part of the cast, the viewership sharply declines until the series ends.
 
 Moreover, we notice a wider variance in viewership in the first seasons. Over time, the variance tapers away, indicating that the show develops a "core" audience that watches all episodes. This is in contrast to Seasons 1 and 5, where we particularly notice a large variance in viewership between episodes of the same season.
 

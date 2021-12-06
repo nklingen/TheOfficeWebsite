@@ -42,39 +42,40 @@ Finally, for `Andy` we see "new", potentially linked to the fact that he joined 
 
 ## Dialogue Analysis
 
-Now we do the same, but looking at their dialogue throughout the series. We can gain insights about the way they actually talk, which could show a lot about their character.
+Now we do the same, but looking at the dialogue throughout the series. We hope to gain insights about the way the characters actually talk, which could also indicate their character traits and personalities. 
 
-However in this case, the majority of words used in the dialogue, are, as espected, not that usefull in terms of describing the characters´ personalities, since they are mostly natural interaction language words that do not carry much meaning. There are still some information that we can pick up on.
+However, overall we found that the majority of words used in the dialogue, are, as expected, natural interaction language interactions that do not carry much meaning. 
 
 ### Michael
 ![michael_w]({{<baseurl>}}/images/wordclouds/michael_w.PNG)
 
-One can see the names of the people Michael most interacts with, such as Dwight, Pam and Jan and "party" seems to be in his mind, since he always wants to turn events into parties.
+In michael's word cloud, we find the names of the people with whom he interacts the most frequently, such as Dwight, Pam and Jan. We also find "party", which fits well with his character's affinity for frequent parties.
 
 ### Dwight
 ![dwight_w]({{<baseurl>}}/images/wordclouds/dwight_w.PNG)
 
-For Dwight, we see that he interacts a lot with Michael, often by exclaiming his name, and Jim, often complaining about his pranks to Michael. We also see "Schrute", his surname, which he makes reference to when talking about his family and his german farmer roots.
+We find that Dwight says "Michael" a lot, which is very intuitive given that Dwight very frequently screams Michaels name to complain after Jim makes a prank on him.
+
+![dwightyellingmichael]({{<baseurl>}}/images/dwightyellingmichael.jpg)
 
 ### Jim
 ![jim_w]({{<baseurl>}}/images/wordclouds/jim_w.PNG)
 
-Jim doesn't have many descriptive words, since he is often quite sarcastic, specially when interacting with Michael and Dwight, and he usually says a lot from his facial expressions alone.
+Jim doesn't have many descriptive words. However, we do notice he is often quite sarcastic given the words "really", "right", "alright", though most of this aspect of his personality is reflected in his facial expressions.
 
 ### Pam
 ![pam_w]({{<baseurl>}}/images/wordclouds/pam_w.PNG)
 
-For Pam one can observe she mainly interacts with Michael in the office, since she is the secretary, and then with Jim. One can tell she is more insecure, with words such as "think", "sorry", "um" or "uh".
+For Pam one can observe she mainly interacts with Michael in the office, since she is the secretary, and then with Jim. One can tell she is more insecure, with many words such as "think", "sorry", "um" or "uh".
 
 ### Andy
 ![andy_w]({{<baseurl>}}/images/wordclouds/andy_w.PNG)
 
-Finally, from Andy, one can see that he uses "right" a lot, which could make reference to him being a people-pleaser and agreeing to everything. We also see Erin inhis wordcloud, which is his girlfriend.
-
+Finally, from Andy, one can see that he uses "right" a lot, which could make reference to him being a people-pleaser and agreeing to everything. We also see he interacts often with his girlfriend Erin.
 
 ### That's what she said!
 
-Any The Office fan knows Michael Scott's most famous phrase ...
+While it didn't show up in the word clouds, we had to mention Michael Scott's most famous phrase ...
 
 ![thats-what-she-said]({{<baseurl>}}/images/thats-what-she-said.gif)
 
