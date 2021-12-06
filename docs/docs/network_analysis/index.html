@@ -3,12 +3,12 @@
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Analysis of degree distributions #  We plot the degree distributions both before and after making the GCC which we used in the network.
-Inward degree distribution: We see a power-law distribution, which has a large majority of nodes with few in-going links, and few instances of nodes with large in-going degrees. We can explain this by noting that the main characters overwhelmingly have many ingoing links from more minor characters, without referencing those characters in return.">
+<meta name="description" content="Network Analysis #  Analysis of degree distributions #  We plot the degree distributions both before and after making the GCC which we used in the network. The rest of the project will use the GCC for the network, where outliers have been removed.
+Inward degree distribution #  We see a power-law distribution, which has a majority of nodes with few in-going links, and few nodes with many in-going degrees.">
 <meta name="theme-color" content="#FFFFFF">
 <meta name="color-scheme" content="light dark"><meta property="og:title" content="Network Analysis" />
-<meta property="og:description" content="Analysis of degree distributions #  We plot the degree distributions both before and after making the GCC which we used in the network.
-Inward degree distribution: We see a power-law distribution, which has a large majority of nodes with few in-going links, and few instances of nodes with large in-going degrees. We can explain this by noting that the main characters overwhelmingly have many ingoing links from more minor characters, without referencing those characters in return." />
+<meta property="og:description" content="Network Analysis #  Analysis of degree distributions #  We plot the degree distributions both before and after making the GCC which we used in the network. The rest of the project will use the GCC for the network, where outliers have been removed.
+Inward degree distribution #  We see a power-law distribution, which has a majority of nodes with few in-going links, and few nodes with many in-going degrees." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://nklingen.github.io/TheOfficeWebsite/docs/network_analysis/" /><meta property="article:section" content="docs" />
 <meta property="article:published_time" content="2021-11-24T16:46:57+01:00" />
@@ -19,7 +19,7 @@ Inward degree distribution: We see a power-law distribution, which has a large m
 <link rel="icon" href="/TheOfficeWebsite/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="/TheOfficeWebsite/book.min.46181bc93375ba932026e753b37c40e6ff8bb16a9ef770c78bcc663e4577b1ba.css" integrity="sha256-RhgbyTN1upMgJudTs3xA5v&#43;LsWqe93DHi8xmPkV3sbo=" crossorigin="anonymous">
   <script defer src="/TheOfficeWebsite/flexsearch.min.js"></script>
-  <script defer src="/TheOfficeWebsite/en.search.min.9ee4e22224e012fb1d4f5fd97e18971ceaf0cd01621c2086915260888cca400d.js" integrity="sha256-nuTiIiTgEvsdT1/ZfhiXHOrwzQFiHCCGkVJgiIzKQA0=" crossorigin="anonymous"></script>
+  <script defer src="/TheOfficeWebsite/en.search.min.9ffbd8c6344344da9a2f4a470efd1c8b1a2ef2c982808e2472d331724bb14c57.js" integrity="sha256-n/vYxjRDRNqaL0pHDv0cixou8smCgI4kctMxckuxTFc=" crossorigin="anonymous"></script>
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -63,6 +63,19 @@ https://github.com/alex-shpak/hugo-book
 
   
   <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://nklingen.github.io/TheOfficeWebsite/docs/about/" class="">About</a>
+  
+
+        </li>
+      
     
       
         <li>
@@ -220,12 +233,13 @@ https://github.com/alex-shpak/hugo-book
   
 <nav id="TableOfContents">
   <ul>
-    <li>
+    <li><a href="#analysis-of-degree-distributions">Analysis of degree distributions</a>
       <ul>
-        <li><a href="#analysis-of-degree-distributions">Analysis of degree distributions</a></li>
-        <li><a href="#plot-of-the-network">Plot of the Network</a></li>
+        <li><a href="#inward-degree-distribution">Inward degree distribution</a></li>
+        <li><a href="#outward-degree-distribution">Outward degree distribution</a></li>
       </ul>
     </li>
+    <li><a href="#plot-of-the-network">Plot of the Network</a></li>
   </ul>
 </nav>
 
@@ -238,18 +252,30 @@ https://github.com/alex-shpak/hugo-book
 
       
       
-  <article class="markdown"><h3 id="analysis-of-degree-distributions">
+  <article class="markdown"><h1 id="network-analysis">
+  Network Analysis
+  <a class="anchor" href="#network-analysis">#</a>
+</h1>
+<h2 id="analysis-of-degree-distributions">
   Analysis of degree distributions
   <a class="anchor" href="#analysis-of-degree-distributions">#</a>
-</h3>
+</h2>
 <p><img src="https://nklingen.github.io/TheOfficeWebsite//images/NetworkAnalysis.png" alt="viewership_seasons" /></p>
-<p>We plot the degree distributions both before and after making the GCC which we used in the network.</p>
-<p><strong>Inward degree distribution:</strong> We see a power-law distribution, which has a large majority of nodes with few in-going links, and few instances of nodes with large in-going degrees. We can explain this by noting that the main characters overwhelmingly have many ingoing links from more minor characters, without referencing those characters in return. While interacctions with main characters are significant for minor characters, they are insignificant in the storyline of the main-characters, leading to a one-sided relationship. Similarly, the power law defines that a network usually consists of a few hubs that most other nodes are connected to. The magnitude of nodes with 0 ingoing edges is reduced after discarding all nodes not in the GCC. However, we will observe many nodes with no ingoing edges.</p>
-<p><strong>Outward degree distribution:</strong> We here see a somewhat Poisson-like distribution. However, we notice some cases where some characters have no outgoing connections. These characters were not removed when creating the GCC as they must still have an ingoing-link connecting them to the giant component. More specifically, they are referenced by a more &ldquo;central&rdquo; character, without them referencing that character in return. This means that the vast majority of characters that are in the GCC have just one ingoing-link.</p>
-<h3 id="plot-of-the-network">
+<p>We plot the degree distributions both before and after making the GCC which we used in the network. The rest of the project will use the GCC for the network, where outliers have been removed.</p>
+<h3 id="inward-degree-distribution">
+  Inward degree distribution
+  <a class="anchor" href="#inward-degree-distribution">#</a>
+</h3>
+<p>We see a power-law distribution, which has a majority of nodes with few in-going links, and few nodes with many in-going degrees. We can explain this by noting that the main characters overwhelmingly have many ingoing links from more minor characters, without referencing those characters in return. While interactions with main characters are significant for minor characters, they are insignificant in the storyline of the main-characters, leading to a one-sided relationship. Similarly, the power law defines that a network usually consists of a few hubs that most other nodes are connected to. The magnitude of nodes with 0 ingoing edges is reduced after discarding all nodes not in the GCC. However, we still observe many nodes with no ingoing edges.</p>
+<h3 id="outward-degree-distribution">
+  Outward degree distribution
+  <a class="anchor" href="#outward-degree-distribution">#</a>
+</h3>
+<p>In the GCC, we see a somewhat Poisson-like distribution. We notice that even after removing outliers, there are still some cases where characters have no outgoing connections. These characters were not removed when creating the GCC as they must still have an ingoing-link connecting them to the giant component. More specifically, they are referenced by a more &ldquo;central&rdquo; character, without them referencing that character in return. Lastly, we note that the vast majority of characters that are in the GCC have just one ingoing-link.</p>
+<h2 id="plot-of-the-network">
   Plot of the Network
   <a class="anchor" href="#plot-of-the-network">#</a>
-</h3>
+</h2>
 <p><img src="https://nklingen.github.io/TheOfficeWebsite//images/network.png" alt="viewership_seasons" /></p>
 </article>
  
@@ -292,12 +318,13 @@ https://github.com/alex-shpak/hugo-book
   
 <nav id="TableOfContents">
   <ul>
-    <li>
+    <li><a href="#analysis-of-degree-distributions">Analysis of degree distributions</a>
       <ul>
-        <li><a href="#analysis-of-degree-distributions">Analysis of degree distributions</a></li>
-        <li><a href="#plot-of-the-network">Plot of the Network</a></li>
+        <li><a href="#inward-degree-distribution">Inward degree distribution</a></li>
+        <li><a href="#outward-degree-distribution">Outward degree distribution</a></li>
       </ul>
     </li>
+    <li><a href="#plot-of-the-network">Plot of the Network</a></li>
   </ul>
 </nav>
 

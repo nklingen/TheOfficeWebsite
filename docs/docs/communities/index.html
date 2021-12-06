@@ -3,14 +3,12 @@
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Communities #  We will use the Louvain method to divide the network into communities of characters in order to see if we can find some intresting groupings from the network alone.
-Methodology #  Results #  This yields 11 communities, which are illustrated in the image below. Each community has a diferent color and labels correspond to the characters that are at the center of each community.
-Now let&rsquo;s take a closer look at the members of each community.">
+<meta name="description" content="Communities #  Methodology #  We will use the Louvain method to detect communities within the larger network. This algorithm is a hierarchical clustering algorithm, that recursively merges smaller communities in order to maximize the modularity score, which measures how densely connected the nodes are within the same community.
+Results #  The Louvain method yielded the following 11 communities, illustrated in the table below. In addition, the communities are plotted using Force Atlas, with nodes colored by community and labeled with the largest character in each community.">
 <meta name="theme-color" content="#FFFFFF">
 <meta name="color-scheme" content="light dark"><meta property="og:title" content="Communities" />
-<meta property="og:description" content="Communities #  We will use the Louvain method to divide the network into communities of characters in order to see if we can find some intresting groupings from the network alone.
-Methodology #  Results #  This yields 11 communities, which are illustrated in the image below. Each community has a diferent color and labels correspond to the characters that are at the center of each community.
-Now let&rsquo;s take a closer look at the members of each community." />
+<meta property="og:description" content="Communities #  Methodology #  We will use the Louvain method to detect communities within the larger network. This algorithm is a hierarchical clustering algorithm, that recursively merges smaller communities in order to maximize the modularity score, which measures how densely connected the nodes are within the same community.
+Results #  The Louvain method yielded the following 11 communities, illustrated in the table below. In addition, the communities are plotted using Force Atlas, with nodes colored by community and labeled with the largest character in each community." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://nklingen.github.io/TheOfficeWebsite/docs/communities/" /><meta property="article:section" content="docs" />
 <meta property="article:published_time" content="2021-11-24T16:46:57+01:00" />
@@ -21,7 +19,7 @@ Now let&rsquo;s take a closer look at the members of each community." />
 <link rel="icon" href="/TheOfficeWebsite/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="/TheOfficeWebsite/book.min.46181bc93375ba932026e753b37c40e6ff8bb16a9ef770c78bcc663e4577b1ba.css" integrity="sha256-RhgbyTN1upMgJudTs3xA5v&#43;LsWqe93DHi8xmPkV3sbo=" crossorigin="anonymous">
   <script defer src="/TheOfficeWebsite/flexsearch.min.js"></script>
-  <script defer src="/TheOfficeWebsite/en.search.min.9ee4e22224e012fb1d4f5fd97e18971ceaf0cd01621c2086915260888cca400d.js" integrity="sha256-nuTiIiTgEvsdT1/ZfhiXHOrwzQFiHCCGkVJgiIzKQA0=" crossorigin="anonymous"></script>
+  <script defer src="/TheOfficeWebsite/en.search.min.9ffbd8c6344344da9a2f4a470efd1c8b1a2ef2c982808e2472d331724bb14c57.js" integrity="sha256-n/vYxjRDRNqaL0pHDv0cixou8smCgI4kctMxckuxTFc=" crossorigin="anonymous"></script>
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -65,6 +63,19 @@ https://github.com/alex-shpak/hugo-book
 
   
   <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://nklingen.github.io/TheOfficeWebsite/docs/about/" class="">About</a>
+  
+
+        </li>
+      
     
       
         <li>
@@ -224,6 +235,7 @@ https://github.com/alex-shpak/hugo-book
   <ul>
     <li><a href="#methodology">Methodology</a></li>
     <li><a href="#results">Results</a></li>
+    <li><a href="#analysis">Analysis</a></li>
   </ul>
 </nav>
 
@@ -240,16 +252,16 @@ https://github.com/alex-shpak/hugo-book
   Communities
   <a class="anchor" href="#communities">#</a>
 </h1>
-<p>We will use the <a href="https://en.wikipedia.org/wiki/Louvain_method">Louvain method</a> to divide the network into communities of characters in order to see if we can find some intresting groupings from the network alone.</p>
 <h2 id="methodology">
   Methodology
   <a class="anchor" href="#methodology">#</a>
 </h2>
+<p>We will use the <a href="https://en.wikipedia.org/wiki/Louvain_method">Louvain method</a> to detect communities within the larger network. This algorithm is a <a href="https://neo4j.com/docs/graph-data-science/current/algorithms/louvain/">hierarchical clustering algorithm</a>, that recursively merges smaller communities in order to maximize the modularity score, which measures how densely connected the nodes are within the same community.</p>
 <h2 id="results">
   Results
   <a class="anchor" href="#results">#</a>
 </h2>
-<p>This yields 11 communities, which are illustrated in the image below. Each community has a diferent color and labels correspond to the characters that are at the center of each community.</p>
+<p>The Louvain method yielded the following 11 communities, illustrated in the table below. In addition, the communities are plotted using Force Atlas, with nodes colored by community and labeled with the largest character in each community.</p>
 <p><img src="https://nklingen.github.io/TheOfficeWebsite//images/communities_network.png" alt="communities_network" /></p>
 <p>Now let&rsquo;s take a closer look at the members of each community. The following table shows the seven most connected characters, in descending order, for each community.</p>
 <table>
@@ -362,12 +374,23 @@ https://github.com/alex-shpak/hugo-book
 </tr>
 </tbody>
 </table>
-<p>The groupings found by the Louvain algorithm proof to be quite insightful, since there are some parallelisms between the characters placed in the same group and how close they are in the series.</p>
-<p>For example, if we look at community 4, it is formed up of Jim and Pam, their children and family relatives of both. This implies a strong bond between the both of them, and there is one indeed, since they have the main romance storyline throught the series and end up marrying and having a family of their own.</p>
-<p>Similarly, in 3 we find Angela and Dwight to be the main characters in that community which have an on-and-off relationship during the series and also end up marrying in the last episode. In that same category, we find Robert Lipton, which is Angela´s ex-husband, as wll as Angela&rsquo;s cat, Garbage, and some of Dwight&rsquo;s family members.</p>
-<p>The trend where romantic partners and family members being placed within the same community is visible: Michael and Holly in 1, Phyllis and Bob in 9, and Andy&rsquo;s and Erin&rsquo;s families in 1 and 2 respectively, amongst others. In case of community 8, corporate characters are grouped together.</p>
-<p>However, there are some character&rsquo;s that don&rsquo;t have an obvious bond with the rest of the characters of the community they belong to. For example, Meredith has little interaction with Angela or Dwight, or Oscar with Jan. We would also expect Ryan and Kelly to be placed together, since they are one of the show&rsquo;s couples with most drama.</p>
-<p>All in all, the communities found from the network have in general a strong cohesion. It is also intresting to point out that these communities are mostly tied together by the personal relationships instead of the categorization we chose for the <a href="Network_Analysis.md">Network analysis</a> section (main characters, warehouse workers, family members, etc).</p>
+<h2 id="analysis">
+  Analysis
+  <a class="anchor" href="#analysis">#</a>
+</h2>
+<p>The groupings found by the Louvain algorithm prove to be very insightful, as we can find many reasonable links between the communities and the series.</p>
+<p>We see in <code>Community 1</code> Andy and his family.</p>
+<p>In <code>Community 2</code>, we find Erin and her family.</p>
+<p>Next, in <code>Community 3</code> we find Angela and Dwight, who share an on-and-off relationship during the series and get married in the last episode. In that same category, we also find Robert Lipton, Angela´s ex-husband, as well as Angela&rsquo;s cat, Garbage, and some of Dwight&rsquo;s family members, including Mose.</p>
+<p><code>Community 4</code> consists of Jim and Pam, their children, and their relatives. We expect to find them together, as their relationship is the many storyline throughout the series.</p>
+<p><code>Community 5</code> consists of many of the executives from the later seasons, including Jo Bennett, Gabe, and Robert California. We also notice the Toby is put in this group, which can be explained by the fact that he has very few meaningful connections to the rest of the employees, and mainly is involved in HR issues and disciplinary meetings where other executives also are present.</p>
+<p>In <code>Community 6</code>, we find Michael and Holly. Very oddly, Creed and the Scranton Strangler are also in this group.</p>
+<p>In <code>Community 7</code> we also find an unlikely pairing. We would have expected Kelly and Ryan to be placed together, as they were also in a very toxic drama-filled on-and-off relationship throughout much of the series. However, Kelly was placed in a community with Darryl, with whom she only shared a brief relationship.</p>
+<p>In <code>Community 8</code> we find another group of executives, including Alan Brand, David Wallace, Charles Miner, and Ryan Howard. In this regards, we find that Ryan was placed with respect to his position (as a previous executive) rather than his interpersonal relationships.</p>
+<p><code>Community 9</code> consists of Phyllis and her husband Bob Vance, as well as Karen Filipelli.</p>
+<p>We notice a clear trend where romantic partners and families are placed together, including Michael and Holly in 1, Phyllis and Bob in 9, and Andy&rsquo;s and Erin&rsquo;s families in 1 and 2 respectively, amongst others.</p>
+<p>While many minor characters seem to be placed with some randomness, there are also some significant characters that didn&rsquo;t seem to have an obvious bond with the rest of the characters in their community. For example, Meredith does not have a particular connection to Angela or Dwight, neither does Oscar to Jan, nor Creed to Michael.</p>
+<p>All in all, the communities detected by the algorithm had a strong cohesion. It is also intresting to point out that these communities are mostly tied together by the personal relationships instead of the categories we chose for the <a href="Network_Analysis.md">Network analysis</a> section (main characters, warehouse workers, family members, etc).</p>
 </article>
  
       
@@ -411,6 +434,7 @@ https://github.com/alex-shpak/hugo-book
   <ul>
     <li><a href="#methodology">Methodology</a></li>
     <li><a href="#results">Results</a></li>
+    <li><a href="#analysis">Analysis</a></li>
   </ul>
 </nav>
 

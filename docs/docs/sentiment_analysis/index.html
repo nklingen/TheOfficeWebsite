@@ -3,12 +3,14 @@
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Sentiment Analysis #  In this section, we will see which characters are the saddest and which are the happiest and which are more emotionally stable and unstable. There is also drama thorughout the season, so we will explore the character&rsquo;s emotional developement for the main characters. Finally, we explore the sentiment evolution throughout the seasons and the saddest and happiest characters.
-Sentiment profile of the characters #  From the dialogue, we can analyze the characters&#39; sentiments and determine the distribution of these.">
+<meta name="description" content="Sentiment Analysis #  In this section, we explore the happiest, saddest, and most emotionally unstable characters. We will also analyse the character development of some main characters across the seasons, based on their sentiment evolution.
+Sentiment for all characters #  From the dialogue, we can analyze the characters&#39; sentiments.
+We find that the distribution resembles a right-skewed Gaussian distribution with one peak around 0 specifically for the characters that had too few lines to be placed by the analysis.">
 <meta name="theme-color" content="#FFFFFF">
 <meta name="color-scheme" content="light dark"><meta property="og:title" content="Sentiment Analysis" />
-<meta property="og:description" content="Sentiment Analysis #  In this section, we will see which characters are the saddest and which are the happiest and which are more emotionally stable and unstable. There is also drama thorughout the season, so we will explore the character&rsquo;s emotional developement for the main characters. Finally, we explore the sentiment evolution throughout the seasons and the saddest and happiest characters.
-Sentiment profile of the characters #  From the dialogue, we can analyze the characters&#39; sentiments and determine the distribution of these." />
+<meta property="og:description" content="Sentiment Analysis #  In this section, we explore the happiest, saddest, and most emotionally unstable characters. We will also analyse the character development of some main characters across the seasons, based on their sentiment evolution.
+Sentiment for all characters #  From the dialogue, we can analyze the characters&#39; sentiments.
+We find that the distribution resembles a right-skewed Gaussian distribution with one peak around 0 specifically for the characters that had too few lines to be placed by the analysis." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://nklingen.github.io/TheOfficeWebsite/docs/sentiment_analysis/" /><meta property="article:section" content="docs" />
 <meta property="article:published_time" content="2021-11-24T16:46:57+01:00" />
@@ -19,7 +21,7 @@ Sentiment profile of the characters #  From the dialogue, we can analyze the cha
 <link rel="icon" href="/TheOfficeWebsite/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="/TheOfficeWebsite/book.min.46181bc93375ba932026e753b37c40e6ff8bb16a9ef770c78bcc663e4577b1ba.css" integrity="sha256-RhgbyTN1upMgJudTs3xA5v&#43;LsWqe93DHi8xmPkV3sbo=" crossorigin="anonymous">
   <script defer src="/TheOfficeWebsite/flexsearch.min.js"></script>
-  <script defer src="/TheOfficeWebsite/en.search.min.9ee4e22224e012fb1d4f5fd97e18971ceaf0cd01621c2086915260888cca400d.js" integrity="sha256-nuTiIiTgEvsdT1/ZfhiXHOrwzQFiHCCGkVJgiIzKQA0=" crossorigin="anonymous"></script>
+  <script defer src="/TheOfficeWebsite/en.search.min.9ffbd8c6344344da9a2f4a470efd1c8b1a2ef2c982808e2472d331724bb14c57.js" integrity="sha256-n/vYxjRDRNqaL0pHDv0cixou8smCgI4kctMxckuxTFc=" crossorigin="anonymous"></script>
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -63,6 +65,19 @@ https://github.com/alex-shpak/hugo-book
 
   
   <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://nklingen.github.io/TheOfficeWebsite/docs/about/" class="">About</a>
+  
+
+        </li>
+      
     
       
         <li>
@@ -220,7 +235,10 @@ https://github.com/alex-shpak/hugo-book
   
 <nav id="TableOfContents">
   <ul>
-    <li><a href="#sentiment-profile-of-the-characters">Sentiment profile of the characters</a></li>
+    <li><a href="#sentiment-for-all-characters">Sentiment for all characters</a></li>
+    <li><a href="#sentiment-for-main-characters">Sentiment for main characters</a></li>
+    <li><a href="#emotional-stability-of-main-characters">Emotional Stability of main characters</a></li>
+    <li><a href="#average-sentiment-for-each-season">Average sentiment for each season.</a></li>
     <li><a href="#sentiment-developement-of-the-main-characters">Sentiment developement of the main characters</a></li>
   </ul>
 </nav>
@@ -238,34 +256,46 @@ https://github.com/alex-shpak/hugo-book
   Sentiment Analysis
   <a class="anchor" href="#sentiment-analysis">#</a>
 </h1>
-<p>In this section, we will see which characters are the saddest and which are the happiest and which are more emotionally stable and unstable. There is also drama thorughout the season, so we will explore the character&rsquo;s emotional developement for the main characters. Finally, we explore the sentiment evolution throughout the seasons and the saddest and happiest characters.</p>
-<h2 id="sentiment-profile-of-the-characters">
-  Sentiment profile of the characters
-  <a class="anchor" href="#sentiment-profile-of-the-characters">#</a>
+<p>In this section, we explore the happiest, saddest, and most emotionally unstable characters. We will also analyse the character development of some main characters across the seasons, based on their sentiment evolution.</p>
+<h2 id="sentiment-for-all-characters">
+  Sentiment for all characters
+  <a class="anchor" href="#sentiment-for-all-characters">#</a>
 </h2>
-<p>From the dialogue, we can analyze the characters' sentiments and determine the distribution of these.</p>
+<p>From the dialogue, we can analyze the characters' sentiments.</p>
 <p><img src="https://nklingen.github.io/TheOfficeWebsite//images/sentiment_distribution.png" alt="sentiment_distribution" /></p>
-<p>One can see that distribution resembles that of a Gaussian one, but skewed to the right. The majority of characters fall within a neutral sentiment, a few others very sad and the rest happy, which is appropritate for a comedy like The Office. If we look at the happiest character, we find <code>Walter &amp; Walter Jr</code>, Andy&rsquo;s dad and brother, singing a very cheerful song. On the other extreme, we find <code>Michael</code>, <code>Pam</code> and <code>Ryan</code> also synchronously signing the song U.G.L.Y., which is quite negative.</p>
-<p>We will now focus on the sentiment of the main characters, individually, to see which are the happiest and saddest main characters, as shown in the plot below.</p>
+<p>We find that the distribution resembles a right-skewed Gaussian distribution with one peak around 0 specifically for the characters that had too few lines to be placed by the analysis. The majority of characters fall within a neutral sentiment or are generally happy, with a few notable exceptions of particularly unhappy characters. This is appropriate for a comedy like The Office, where the tone is generally comedic and fun. If we look at the happiest character, we find <code>Walter &amp; Walter Jr</code>, Andy&rsquo;s dad and brother, singing a very cheerful song. On the other extreme, we find <code>Michael</code>, <code>Pam</code> and <code>Ryan</code> also synchronously signing the song U.G.L.Y., which is quite negative.</p>
+<h2 id="sentiment-for-main-characters">
+  Sentiment for main characters
+  <a class="anchor" href="#sentiment-for-main-characters">#</a>
+</h2>
+<p>We will now focus the main characters, individually.</p>
 <p><img src="https://nklingen.github.io/TheOfficeWebsite//images/sentiment_per_character.png" alt="sentiment_per_character" /></p>
-<p>One can appreciate that Clark, Michael and Gabe are the happiest characters. It doesn&rsquo;t come as a suprise for Clark, who is an excited intern in the laste season and for Michael, who is always naively optimistic. However, Gabe doesn&rsquo;t come off as one of the happiest characters, but rather emotionless. It could have to do with the subset of the dialogue chosen. On the other hand, we have Stanley, Meredith and Angela. Stanley is always grumpy, Meredith has a messy personal life and is often the victim of some unfortunate incidents in the office and Angela is cold and stern and is rarely seen smiling. Thus, the sentiments computed seem to be in general quite accurate.</p>
-<p>We also look at the boxplots for their sentiments to analyze how emotionally stable they are.</p>
+<p>We find that Clark, Michael and Gabe are the happiest characters. It doesn&rsquo;t come as a suprise for the bubbly intern Clark, nor for naively optimistic Michael. However, Gabe doesn&rsquo;t come off as a genuinely happy characters, but rather as awkward and restrained in his behavior. Here, we speculate that the dialogue analysis is purely based on word choice and script, rather than the delivery of the words and genuine emotion conveyed.</p>
+<p>On the other side of the spectrum, we have Stanley, Meredith and Angela. Stanley is an obvious character to fall here, as his character is always grumpy. Angela, similarly, is cold and stern, and very rarely shows positivity. Finally, we speculate that Meredith was placed here due to her messy personal life in which she often is victim of unfortunate events. Thus, the sentiments computed seem to be generally accurate.</p>
+<h2 id="emotional-stability-of-main-characters">
+  Emotional Stability of main characters
+  <a class="anchor" href="#emotional-stability-of-main-characters">#</a>
+</h2>
+<p>We also look at the boxplots for each characters' sentiments to analyze how emotionally stable they are - that is, how much their sentiment varies.</p>
 <p><img src="https://nklingen.github.io/TheOfficeWebsite//images/sentiment_distribution_boxplot.png" alt="sentiment_distribution_boxplot" /></p>
-<p>One can observe from the graph above that there characters with low standard deviation and few outliers, such as <code>Michael</code>, <code>Dwight</code>, <code>Jim</code>, <code>Karen</code> or <code>Pam</code> and others with high standar deviation and many outliers, specially <code>Creed</code>, <code>Meredith</code> or <code>Stanley</code>. In general, those more stable are the characters that are more developed in the series and have more lines, so the analysis is more accurate. On the other hand, those that are more unstable have less screentime and they often appear for comical moments, which might explain their more exagerated reactions to more exageratic situations.</p>
-<p>Finally, we also plot the average sentiment for each season.</p>
+<p>We observe that there characters with low standard deviation and few outliers, such as <code>Michael</code>, <code>Dwight</code>, <code>Jim</code>, <code>Karen</code> or <code>Pam</code> and others with high standard deviation and many outliers, specially <code>Creed</code>, <code>Meredith</code> or <code>Stanley</code>. In general, we note that characters depicted as more unstable generally had less screentime and often appeared for particularly comical moments, which might explain their more exagerated reactions in more exageratic situations.</p>
+<h2 id="average-sentiment-for-each-season">
+  Average sentiment for each season.
+  <a class="anchor" href="#average-sentiment-for-each-season">#</a>
+</h2>
 <p><img src="https://nklingen.github.io/TheOfficeWebsite//images/avg_sentiment_episode.png" alt="avg_sentiment_episode" /></p>
-<p>The average sentiment per episode seems to very a lot from one episode to another, but the average sentiment throught the series is apparently stable. The happiest episode is <code>PDA</code>, where Michael and Holly just started dating and have public displays of affection (PDA), Andy and Erin go on a romantic treasure hunt and Jim and Pam get tips on champagne. The saddest eppisode is <code>Double Date</code> where Jim, Pam, Michael and Pam´s mum go on a double date but Michael ends up breaking up with Pam´s mom. She gets very upset and Pam gets extremely angry with Michael.</p>
+<p>The while the average sentiment per episode seems to very a lot, in general it was more stable across seasons. The happiest episode is <code>PDA</code>, where Michael and Holly first fall in love and have frequent public displays of affection (PDA), and Andy and Erin go on a romantic treasure hunt. The saddest eppisode is <code>Double Date</code> where Jim, Pam, Michael and Pam´s mum go on a double date but Michael ends up breaking up with Pam´s mom because he finds her too old for him. Both her and Pam are furious for the rest of the episode.</p>
 <h2 id="sentiment-developement-of-the-main-characters">
   Sentiment developement of the main characters
   <a class="anchor" href="#sentiment-developement-of-the-main-characters">#</a>
 </h2>
-<p>We will focus on the character development of the main characters throughut the series: Michael, Dwight, Jim, Pam and Andy. We start with plotting their average sentiment throughout the seasons and examining their evolution.</p>
+<p>Next, we plot the character development of the main characters throughout the series. We begin by plotting their average sentiment throughout the seasons and examining their evolution.</p>
 <p><img src="https://nklingen.github.io/TheOfficeWebsite//images/character_sentiment_developement.png" alt="character_sentiment_developement" /></p>
 <p>TODO: analysis of this</p>
 <p>Now let us look at the average sentiment of these characters per episode, in order to see if we can highlight some episodes which were particularly emotional for them.</p>
 <p><img src="https://nklingen.github.io/TheOfficeWebsite//images/sentiment_per_episode_main.png" alt="sentiment_per_episode_main" /></p>
 <p>There are a few episodes that had a high emotional load for Pam, Dwight and Andy, but we cannot observe any significant ones for Michael or Jim.</p>
-<p>For Pam, she&rsquo;s happiest at <code>PDA</code>, when her and Jim drink champagne during lunch spend the whole episode goofing around in the office, followed by <code>The Delivery</code>, where she gives birth to her first child with Jim.</p>
+<p>For Pam, she&rsquo;s happiest at <code>PDA</code>, when her and Jim drink champagne during lunch and spend the whole episode goofing around in the office, followed by <code>The Delivery</code>, where she gives birth to her first child with Jim.</p>
 <p>etc &hellip;</p>
 </article>
  
@@ -308,7 +338,10 @@ https://github.com/alex-shpak/hugo-book
   
 <nav id="TableOfContents">
   <ul>
-    <li><a href="#sentiment-profile-of-the-characters">Sentiment profile of the characters</a></li>
+    <li><a href="#sentiment-for-all-characters">Sentiment for all characters</a></li>
+    <li><a href="#sentiment-for-main-characters">Sentiment for main characters</a></li>
+    <li><a href="#emotional-stability-of-main-characters">Emotional Stability of main characters</a></li>
+    <li><a href="#average-sentiment-for-each-season">Average sentiment for each season.</a></li>
     <li><a href="#sentiment-developement-of-the-main-characters">Sentiment developement of the main characters</a></li>
   </ul>
 </nav>

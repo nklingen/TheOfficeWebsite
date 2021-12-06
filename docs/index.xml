@@ -5,15 +5,96 @@
     <link>https://nklingen.github.io/TheOfficeWebsite/</link>
     <description>Recent content on The Office</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://nklingen.github.io/TheOfficeWebsite/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Wed, 24 Nov 2021 16:46:57 +0100</lastBuildDate><atom:link href="https://nklingen.github.io/TheOfficeWebsite/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>index</title>
-      <link>https://nklingen.github.io/TheOfficeWebsite/docs/</link>
+      <title>About</title>
+      <link>https://nklingen.github.io/TheOfficeWebsite/docs/about/</link>
       <pubDate>Wed, 24 Nov 2021 16:46:57 +0100</pubDate>
       
-      <guid>https://nklingen.github.io/TheOfficeWebsite/docs/</guid>
+      <guid>https://nklingen.github.io/TheOfficeWebsite/docs/about/</guid>
       <description>This website was created by Blanca Robledo Díaz, Oliver Zeman and Natasha Ø. Klingenbrunn as a final project for the course 02805 Social graphs and interactions offered by the Technical University of Denmark.
 Each of the following sections will analyse and visualize different datasets relating to the office.</description>
+    </item>
+    
+    <item>
+      <title>Communities</title>
+      <link>https://nklingen.github.io/TheOfficeWebsite/docs/communities/</link>
+      <pubDate>Wed, 24 Nov 2021 16:46:57 +0100</pubDate>
+      
+      <guid>https://nklingen.github.io/TheOfficeWebsite/docs/communities/</guid>
+      <description>Communities #  Methodology #  We will use the Louvain method to detect communities within the larger network. This algorithm is a hierarchical clustering algorithm, that recursively merges smaller communities in order to maximize the modularity score, which measures how densely connected the nodes are within the same community.
+Results #  The Louvain method yielded the following 11 communities, illustrated in the table below. In addition, the communities are plotted using Force Atlas, with nodes colored by community and labeled with the largest character in each community.</description>
+    </item>
+    
+    <item>
+      <title>Directors</title>
+      <link>https://nklingen.github.io/TheOfficeWebsite/docs/directors/</link>
+      <pubDate>Wed, 24 Nov 2021 16:46:57 +0100</pubDate>
+      
+      <guid>https://nklingen.github.io/TheOfficeWebsite/docs/directors/</guid>
+      <description>Directors #  From the Kaggle Dataset, we will also analyse the most frequent and most popular directors. There were 54 total directors throughout the show, many of who only directed 1 or 2 episodes. We will focus only on the top 10 most frequent directors.
+The graph above shows the 10 most frequent directors, sorted in descending order from left to right by # of episodes directed, with their respective average ratings.</description>
+    </item>
+    
+    <item>
+      <title>Network Analysis</title>
+      <link>https://nklingen.github.io/TheOfficeWebsite/docs/network_analysis/</link>
+      <pubDate>Wed, 24 Nov 2021 16:46:57 +0100</pubDate>
+      
+      <guid>https://nklingen.github.io/TheOfficeWebsite/docs/network_analysis/</guid>
+      <description>Network Analysis #  Analysis of degree distributions #  We plot the degree distributions both before and after making the GCC which we used in the network. The rest of the project will use the GCC for the network, where outliers have been removed.
+Inward degree distribution #  We see a power-law distribution, which has a majority of nodes with few in-going links, and few nodes with many in-going degrees.</description>
+    </item>
+    
+    <item>
+      <title>Personality Analysis</title>
+      <link>https://nklingen.github.io/TheOfficeWebsite/docs/personality_analysis/</link>
+      <pubDate>Wed, 24 Nov 2021 16:46:57 +0100</pubDate>
+      
+      <guid>https://nklingen.github.io/TheOfficeWebsite/docs/personality_analysis/</guid>
+      <description>Personality Analysis #  In this section, we will analyze the characters background based on solely plain text form the wiki pages and their dialogue.
+Wiki Page Analysis #  We use the pages from The Office Wiki, for each character to extract some descriptive adjectives and verbs that define the character&amp;rsquo;s background, lifestyle and personality. We will focus on the 5 characters with most screen time in The Office: Michael, Dwight, Jim, Pam and Andy.</description>
+    </item>
+    
+    <item>
+      <title>Ratings</title>
+      <link>https://nklingen.github.io/TheOfficeWebsite/docs/ratings/</link>
+      <pubDate>Wed, 24 Nov 2021 16:46:57 +0100</pubDate>
+      
+      <guid>https://nklingen.github.io/TheOfficeWebsite/docs/ratings/</guid>
+      <description>Ratings #  Plot #  We see the ratings climb in seasons 1 and 2, then peak in seasons 3. Season 4 slightly decreases on average, yet also has a much higher variance. Thus the quality between episodes themselves varies much more in this season. We see the decrease in ratings continue until season 7, where it climbs again briefly, before a dramatic decline in seasons 8 and 9.</description>
+    </item>
+    
+    <item>
+      <title>Script</title>
+      <link>https://nklingen.github.io/TheOfficeWebsite/docs/script/</link>
+      <pubDate>Wed, 24 Nov 2021 16:46:57 +0100</pubDate>
+      
+      <guid>https://nklingen.github.io/TheOfficeWebsite/docs/script/</guid>
+      <description>Script #  Number of lines per season #  We will use a subset of The Office script to gain a deeper analysis of the personality of the characters and their interactions with each other. We first examije the distribution of lines throughout the seasons.
+We can see that all seasons have more or less the same number of lines, except for Season 1. This is also because the first season only has 6 episodes.</description>
+    </item>
+    
+    <item>
+      <title>Sentiment Analysis</title>
+      <link>https://nklingen.github.io/TheOfficeWebsite/docs/sentiment_analysis/</link>
+      <pubDate>Wed, 24 Nov 2021 16:46:57 +0100</pubDate>
+      
+      <guid>https://nklingen.github.io/TheOfficeWebsite/docs/sentiment_analysis/</guid>
+      <description>Sentiment Analysis #  In this section, we explore the happiest, saddest, and most emotionally unstable characters. We will also analyse the character development of some main characters across the seasons, based on their sentiment evolution.
+Sentiment for all characters #  From the dialogue, we can analyze the characters&#39; sentiments.
+We find that the distribution resembles a right-skewed Gaussian distribution with one peak around 0 specifically for the characters that had too few lines to be placed by the analysis.</description>
+    </item>
+    
+    <item>
+      <title>Viewership</title>
+      <link>https://nklingen.github.io/TheOfficeWebsite/docs/viewership/</link>
+      <pubDate>Wed, 24 Nov 2021 16:46:57 +0100</pubDate>
+      
+      <guid>https://nklingen.github.io/TheOfficeWebsite/docs/viewership/</guid>
+      <description>Viewership #  The first thing we immediately notice is that The Office steadily increases in viewership until season 5. However, it then begins declining in seasons 6 and 7, even before Michael leaves at the end at season 7. In Seasons 8 and 9, when Michael is no longer a part of the cast, the viewership sharply declines until the series ends.
+Moreover, we notice a wider variance in viewership in the first seasons.</description>
     </item>
     
   </channel>
