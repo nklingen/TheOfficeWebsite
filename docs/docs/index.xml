@@ -8,13 +8,23 @@
     <language>en-us</language>
     <lastBuildDate>Wed, 24 Nov 2021 16:46:57 +0100</lastBuildDate><atom:link href="https://nklingen.github.io/TheOfficeWebsite/docs/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>About</title>
+      <link>https://nklingen.github.io/TheOfficeWebsite/docs/about/</link>
+      <pubDate>Wed, 24 Nov 2021 16:46:57 +0100</pubDate>
+      
+      <guid>https://nklingen.github.io/TheOfficeWebsite/docs/about/</guid>
+      <description>This website was created by Blanca Robledo Díaz, Oliver Zeman and Natasha Ø. Klingenbrunn as a final project for the course 02805 Social graphs and interactions offered by the Technical University of Denmark.
+Each of the following sections will analyse and visualize different datasets relating to the office.</description>
+    </item>
+    
+    <item>
       <title>Communities</title>
       <link>https://nklingen.github.io/TheOfficeWebsite/docs/communities/</link>
       <pubDate>Wed, 24 Nov 2021 16:46:57 +0100</pubDate>
       
       <guid>https://nklingen.github.io/TheOfficeWebsite/docs/communities/</guid>
       <description>Communities #  Methodology #  We will use the Louvain method to detect communities within the larger network. This algorithm is a hierarchical clustering algorithm, that recursively merges smaller communities in order to maximize the modularity score, which measures how densely connected the nodes are within the same community.
-Results #  The Louvain method yielded the following 11 communities, illustrated in the table below. In addition, the communities are plotted using Force Atlas, with nodes colored by community and labeled with the largest character in each community.</description>
+Plot #  The Louvain method yielded the following 11 communities, illustrated in the table below. In addition, the communities are plotted using Force Atlas, with nodes colored by community and labeled with the largest character in each community.</description>
     </item>
     
     <item>

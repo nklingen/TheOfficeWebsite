@@ -11,13 +11,13 @@ draft: false
 
 We will use the [Louvain method](https://en.wikipedia.org/wiki/Louvain_method) to detect communities within the larger network. This algorithm is a [hierarchical clustering algorithm](https://neo4j.com/docs/graph-data-science/current/algorithms/louvain/), that recursively merges smaller communities in order to maximize the modularity score, which measures how densely connected the nodes are within the same community.
 
-## Results
+## Plot
 
 The Louvain method yielded the following 11 communities, illustrated in the table below. In addition, the communities are plotted using Force Atlas, with nodes colored by community and labeled with the largest character in each community. 
 
 ![communities_network]({{<baseurl>}}/images/communities_network.png)
 
-
+## Table
 Now let's take a closer look at the members of each community. The following table shows the seven most connected characters, in descending order, for each community.
 
 | 1                  | 2               | 3                  | 4               | 5                 | 6                  | 7                  | 8               | 9                     | 10             | 11                   |
@@ -39,7 +39,7 @@ We see in `Community 1` Andy and his family.
 
 In `Community 2`, we find Erin and her family.
 
-Next, in `Community 3` we find Angela and Dwight, who share an on-and-off relationship during the series and get married in the last episode. In that same category, we also find Robert Lipton, Angela´s ex-husband, as well as Angela's cat, Garbage, and some of Dwight's family members, including Mose.
+Next, in `Community 3` we find Angela and Dwight, who share an on-and-off relationship during the series and get married in the last episode. In that same category, we also find Robert Lipton, Angela's ex-husband, as well as Angela's cat, Garbage, and some of Dwight's family members, including Mose.
 
 `Community 4` consists of Jim and Pam, their children, and their relatives. We expect to find them together, as their relationship is the many storyline throughout the series. 
 
@@ -52,7 +52,6 @@ In `Community 7` we also find an unlikely pairing. We would have expected Kelly 
 In `Community 8` we find another group of executives, including Alan Brand, David Wallace, Charles Miner, and Ryan Howard. In this regards, we find that Ryan was placed with respect to his position (as a previous executive) rather than his interpersonal relationships.
 
 `Community 9` consists of Phyllis and her husband Bob Vance, as well as Karen Filipelli.
-
 
 
 We notice a clear trend where romantic partners and families are placed together, including Michael and Holly in 1, Phyllis and Bob in 9, and Andy's and Erin's families in 1 and 2 respectively, amongst others. 

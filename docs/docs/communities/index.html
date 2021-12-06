@@ -4,11 +4,11 @@
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="Communities #  Methodology #  We will use the Louvain method to detect communities within the larger network. This algorithm is a hierarchical clustering algorithm, that recursively merges smaller communities in order to maximize the modularity score, which measures how densely connected the nodes are within the same community.
-Results #  The Louvain method yielded the following 11 communities, illustrated in the table below. In addition, the communities are plotted using Force Atlas, with nodes colored by community and labeled with the largest character in each community.">
+Plot #  The Louvain method yielded the following 11 communities, illustrated in the table below. In addition, the communities are plotted using Force Atlas, with nodes colored by community and labeled with the largest character in each community.">
 <meta name="theme-color" content="#FFFFFF">
 <meta name="color-scheme" content="light dark"><meta property="og:title" content="Communities" />
 <meta property="og:description" content="Communities #  Methodology #  We will use the Louvain method to detect communities within the larger network. This algorithm is a hierarchical clustering algorithm, that recursively merges smaller communities in order to maximize the modularity score, which measures how densely connected the nodes are within the same community.
-Results #  The Louvain method yielded the following 11 communities, illustrated in the table below. In addition, the communities are plotted using Force Atlas, with nodes colored by community and labeled with the largest character in each community." />
+Plot #  The Louvain method yielded the following 11 communities, illustrated in the table below. In addition, the communities are plotted using Force Atlas, with nodes colored by community and labeled with the largest character in each community." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://nklingen.github.io/TheOfficeWebsite/docs/communities/" /><meta property="article:section" content="docs" />
 <meta property="article:published_time" content="2021-11-24T16:46:57+01:00" />
@@ -19,7 +19,7 @@ Results #  The Louvain method yielded the following 11 communities, illustrated 
 <link rel="icon" href="/TheOfficeWebsite/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="/TheOfficeWebsite/book.min.46181bc93375ba932026e753b37c40e6ff8bb16a9ef770c78bcc663e4577b1ba.css" integrity="sha256-RhgbyTN1upMgJudTs3xA5v&#43;LsWqe93DHi8xmPkV3sbo=" crossorigin="anonymous">
   <script defer src="/TheOfficeWebsite/flexsearch.min.js"></script>
-  <script defer src="/TheOfficeWebsite/en.search.min.389d3d8e364939e0905ef94be425fa9afbb8ee935e6af426885287eec211c10b.js" integrity="sha256-OJ09jjZJOeCQXvlL5CX6mvu47pNeavQmiFKH7sIRwQs=" crossorigin="anonymous"></script>
+  <script defer src="/TheOfficeWebsite/en.search.min.0d604a43c00e5decd77ac29fb2eed2e5d102173dcc280e58824e55ee7d2151ff.js" integrity="sha256-DWBKQ8AOXezXesKfsu7S5dECFz3MKA5Ygk5V7n0hUf8=" crossorigin="anonymous"></script>
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -63,6 +63,19 @@ https://github.com/alex-shpak/hugo-book
 
   
   <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://nklingen.github.io/TheOfficeWebsite/docs/about/" class="">About</a>
+  
+
+        </li>
+      
     
       
         <li>
@@ -221,7 +234,8 @@ https://github.com/alex-shpak/hugo-book
 <nav id="TableOfContents">
   <ul>
     <li><a href="#methodology">Methodology</a></li>
-    <li><a href="#results">Results</a></li>
+    <li><a href="#plot">Plot</a></li>
+    <li><a href="#table">Table</a></li>
     <li><a href="#analysis">Analysis</a></li>
   </ul>
 </nav>
@@ -244,12 +258,16 @@ https://github.com/alex-shpak/hugo-book
   <a class="anchor" href="#methodology">#</a>
 </h2>
 <p>We will use the <a href="https://en.wikipedia.org/wiki/Louvain_method">Louvain method</a> to detect communities within the larger network. This algorithm is a <a href="https://neo4j.com/docs/graph-data-science/current/algorithms/louvain/">hierarchical clustering algorithm</a>, that recursively merges smaller communities in order to maximize the modularity score, which measures how densely connected the nodes are within the same community.</p>
-<h2 id="results">
-  Results
-  <a class="anchor" href="#results">#</a>
+<h2 id="plot">
+  Plot
+  <a class="anchor" href="#plot">#</a>
 </h2>
 <p>The Louvain method yielded the following 11 communities, illustrated in the table below. In addition, the communities are plotted using Force Atlas, with nodes colored by community and labeled with the largest character in each community.</p>
 <p><img src="https://nklingen.github.io/TheOfficeWebsite//images/communities_network.png" alt="communities_network" /></p>
+<h2 id="table">
+  Table
+  <a class="anchor" href="#table">#</a>
+</h2>
 <p>Now let&rsquo;s take a closer look at the members of each community. The following table shows the seven most connected characters, in descending order, for each community.</p>
 <table>
 <thead>
@@ -368,7 +386,7 @@ https://github.com/alex-shpak/hugo-book
 <p>The groupings found by the Louvain algorithm prove to be very insightful, as we can find many reasonable links between the communities and the series.</p>
 <p>We see in <code>Community 1</code> Andy and his family.</p>
 <p>In <code>Community 2</code>, we find Erin and her family.</p>
-<p>Next, in <code>Community 3</code> we find Angela and Dwight, who share an on-and-off relationship during the series and get married in the last episode. In that same category, we also find Robert Lipton, Angela´s ex-husband, as well as Angela&rsquo;s cat, Garbage, and some of Dwight&rsquo;s family members, including Mose.</p>
+<p>Next, in <code>Community 3</code> we find Angela and Dwight, who share an on-and-off relationship during the series and get married in the last episode. In that same category, we also find Robert Lipton, Angela&rsquo;s ex-husband, as well as Angela&rsquo;s cat, Garbage, and some of Dwight&rsquo;s family members, including Mose.</p>
 <p><code>Community 4</code> consists of Jim and Pam, their children, and their relatives. We expect to find them together, as their relationship is the many storyline throughout the series.</p>
 <p><code>Community 5</code> consists of many of the executives from the later seasons, including Jo Bennett, Gabe, and Robert California. We also notice the Toby is put in this group, which can be explained by the fact that he has very few meaningful connections to the rest of the employees, and mainly is involved in HR issues and disciplinary meetings where other executives also are present.</p>
 <p>In <code>Community 6</code>, we find Michael and Holly. Very oddly, Creed and the Scranton Strangler are also in this group.</p>
@@ -420,7 +438,8 @@ https://github.com/alex-shpak/hugo-book
 <nav id="TableOfContents">
   <ul>
     <li><a href="#methodology">Methodology</a></li>
-    <li><a href="#results">Results</a></li>
+    <li><a href="#plot">Plot</a></li>
+    <li><a href="#table">Table</a></li>
     <li><a href="#analysis">Analysis</a></li>
   </ul>
 </nav>

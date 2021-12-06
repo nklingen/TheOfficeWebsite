@@ -44,7 +44,7 @@ Next, we plot the character development of the main characters throughout the se
 
 ![character_sentiment_developement]({{<baseurl>}}/images/character_sentiment_developement.png)
 
-TODO: analysis of this
+> TODO: analysis of this
 
 Now let us look at the average sentiment of these characters per episode, in order to see if we can highlight some episodes which were particularly emotional for them.
 
@@ -54,4 +54,4 @@ There are a few episodes that had a high emotional load for Pam, Dwight and Andy
 
 For Pam, she's happiest at `PDA`, when her and Jim drink champagne during lunch and spend the whole episode goofing around in the office, followed by `The Delivery`, where she gives birth to her first child with Jim.
 
-etc ...
+> etc ...
