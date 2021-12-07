@@ -36,7 +36,7 @@ We observe that there characters with low standard deviation and few outliers, s
 
 ![avg_sentiment_episode]({{<baseurl>}}/images/avg_sentiment_episode.png)
 
-The while the average sentiment per episode seems to very a lot, in general it was more stable across seasons. The happiest episode is `PDA`, where Michael and Holly first fall in love and have frequent public displays of affection (PDA), and Andy and Erin go on a romantic treasure hunt. The saddest eppisode is `Double Date` where Jim, Pam, Michael and Pam´s mum go on a double date but Michael ends up breaking up with Pam´s mom because he finds her too old for him. Both her and Pam are furious for the rest of the episode.
+The while the average sentiment per episode seems to very a lot, in general it was more stable across seasons. The happiest episode is `Threat Level Midnight`, (also the highest rated episode), where Michael finishes his movie, featuring several the office characters, where they are all very excited to see how it turned out. The saddest eppisode is `Double Date` where Jim, Pam, Michael and Pam´s mum go on a double date but Michael ends up breaking up with Pam´s mom because he finds her too old for him. Both her and Pam are furious for the rest of the episode.
 
 ## Sentiment developement of the main characters
 
@@ -44,14 +44,14 @@ Next, we plot the character development of the main characters throughout the se
 
 ![character_sentiment_developement]({{<baseurl>}}/images/character_sentiment_developement.png)
 
-> TODO: analysis of this
-
 Now let us look at the average sentiment of these characters per episode, in order to see if we can highlight some episodes which were particularly emotional for them.
 
 ![sentiment_per_episode_main]({{<baseurl>}}/images/sentiment_per_episode_main.png)
 
 There are a few episodes that had a high emotional load for Pam, Dwight and Andy, but we cannot observe any significant ones for Michael or Jim.
 
-For Pam, she's happiest at `PDA`, when her and Jim drink champagne during lunch and spend the whole episode goofing around in the office, followed by `The Delivery`, where she gives birth to her first child with Jim.
+For Pam, she's happiest at `Threat Level Midnight`, where she has great fun watching Michael's movie, followed by `The Delivery`, where she gives birth to her first child with Jim. In contrast, she is saddest at `Dwight K. Schrute, (Acting) Manager`, where Dwight is named acting regional manager and terrorizes everyone, and `Cocktails`, where Roy gets furious at Pam.
 
-> etc ...
+For Dwight, the saddes moments are `Diwali`, where Michael´s girlfriend breaks up with him after he proposes. Since Dwight is Michael´s closest friend, he feels very sad for him. He is also sad is `Spooked`, where he is upset with Toby for removing the weapons from his Halloween costume.
+
+Suprisingly, for Andy, `Spooked` is the episode where he is the happiest, where he organizes the Halloween party. He is also happy in `Night Out`, where he and Angela are voted the best couple. He is saddest at `Frame Toby`, where Angela keeps making unreasonable demands for their wedding.
