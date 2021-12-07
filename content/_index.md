@@ -8,5 +8,3 @@ This website was created by [Blanca Robledo Díaz](https://github.com/Blankuca),
 
 
 Each of the following sections will analyse and visualize different datasets relating to the office.
-
-
