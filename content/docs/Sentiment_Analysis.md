@@ -38,11 +38,21 @@ We observe that there characters with low standard deviation and few outliers, s
 
 The while the average sentiment per episode seems to very a lot, in general it was more stable across seasons. The happiest episode is `Threat Level Midnight`, (also the highest rated episode), where Michael finishes his movie, featuring several the office characters, where they are all very excited to see how it turned out. The saddest eppisode is `Double Date` where Jim, Pam, Michael and Pam´s mum go on a double date but Michael ends up breaking up with Pam´s mom because he finds her too old for him. Both her and Pam are furious for the rest of the episode.
 
-## Sentiment developement of the main characters
+## Sentiment development of the main characters
 
 Next, we plot the character development of the main characters throughout the series. We begin by plotting their average sentiment throughout the seasons and examining their evolution.
 
 ![character_sentiment_developement]({{<baseurl>}}/images/character_sentiment_developement.png)
+
+One can see that Dwight is the saddest, but he does get happier with the seasons. In the last seasons his career takes off and he becomes Regional Manager, his dream. He also marries Angela and discovers that her son is his. Finally, he inherits a farm. 
+
+Pam also gets happier; she is at first not very happy either with her fiance Roy nor her position as a secretary. Both these things change; she ends up forming a family with Jim and having a job better suited to her potential.
+
+Jim starts sentiment seems to decrease when he is rejected by Pam and moves to Stamford, but then increases as he forms a family with Pam and starts his dream job in Athlead.
+
+Michael's sentiment also seems to decrease with the seasons, probably because of the multiple unfortunate events that happen to him. He looks happier in his last season, when he finally marries Holly.
+
+Finally, Andy seems very happy in season 4, possibly because he is dating Angela and his sentiment has a noticable decrease in season 5, after he discovers Angela was cheating with Dwight all along.
 
 Now let us look at the average sentiment of these characters per episode, in order to see if we can highlight some episodes which were particularly emotional for them.
 

@@ -9,4 +9,5 @@ This website was created by [Blanca Robledo Díaz](https://github.com/Blankuca),
 
 Each of the following sections will analyse and visualize different datasets relating to the office.
 
+Read our [Explainer Notebook](https://nbviewer.org/github/nklingen/SocialGraphsProject/blob/main/Explainer_Notebook.ipynb) to learn more about the though process behind our ideas, the methodology we used and our results. Also, feel free to download [GitHub repo](https://github.com/nklingen/SocialGraphsProject) and explore our code!
 
