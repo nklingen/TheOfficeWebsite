@@ -6,9 +6,6 @@ draft: false
 
 # Communities
 
-
-## Methodology
-
 We will use the [Louvain method](https://en.wikipedia.org/wiki/Louvain_method) to detect communities within the larger network. This algorithm is a [hierarchical clustering algorithm](https://neo4j.com/docs/graph-data-science/current/algorithms/louvain/), that recursively merges smaller communities in order to maximize the modularity score, which measures how densely connected the nodes are within the same community.
 
 ## Plot

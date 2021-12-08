@@ -60,8 +60,8 @@ Now let us look at the average sentiment of these characters per episode, in ord
 
 There are a few episodes that had a high emotional load for Pam, Dwight and Andy, but we cannot observe any significant ones for Michael or Jim.
 
-For Pam, she's happiest at `Threat Level Midnight`, where she has great fun watching Michael's movie, followed by `The Delivery`, where she gives birth to her first child with Jim. In contrast, she is saddest at `Dwight K. Schrute, (Acting) Manager`, where Dwight is named acting regional manager and terrorizes everyone, and `Cocktails`, where Roy gets furious at Pam.
+For Pam, she's happiest at `Threat Level Midnight`, where she has great fun watching Michael's movie, followed by `Saint Patrick's day`, the day after she gives birth to her first child with Jim. In contrast, she is saddest at `Dwight K. Schrute, (Acting) Manager`, where Dwight is named acting regional manager and terrorizes everyone, and `The Negotiation`, where Roy gets furious at Jim because of Pam.
 
 For Dwight, the saddes moments are `Diwali`, where Michael´s girlfriend breaks up with him after he proposes. Since Dwight is Michael´s closest friend, he feels very sad for him. He is also sad is `Spooked`, where he is upset with Toby for removing the weapons from his Halloween costume.
 
-Suprisingly, for Andy, `Spooked` is the episode where he is the happiest, where he organizes the Halloween party. He is also happy in `Night Out`, where he and Angela are voted the best couple. He is saddest at `Frame Toby`, where Angela keeps making unreasonable demands for their wedding.
+For Andy, the happiest is `The Banker`, where Andy pretends to be very excited to impress the banker. He is also happy in `Night Out`, where he and Angela are voted the best couple.
