@@ -13,7 +13,7 @@
       <pubDate>Wed, 24 Nov 2021 16:46:57 +0100</pubDate>
       
       <guid>https://nklingen.github.io/TheOfficeWebsite/docs/communities/</guid>
-      <description>Communities #  Methodology #  We will use the Louvain method to detect communities within the larger network. This algorithm is a hierarchical clustering algorithm, that recursively merges smaller communities in order to maximize the modularity score, which measures how densely connected the nodes are within the same community.
+      <description>Communities #  We will use the Louvain method to detect communities within the larger network. This algorithm is a hierarchical clustering algorithm, that recursively merges smaller communities in order to maximize the modularity score, which measures how densely connected the nodes are within the same community.
 Plot #  The Louvain method yielded the following 11 communities, illustrated in the table below. In addition, the communities are plotted using Force Atlas, with nodes colored by community and labeled with the largest character in each community.</description>
     </item>
     
@@ -33,7 +33,8 @@ The graph above shows the 10 most frequent directors, sorted in descending order
       <pubDate>Wed, 24 Nov 2021 16:46:57 +0100</pubDate>
       
       <guid>https://nklingen.github.io/TheOfficeWebsite/docs/network_analysis/</guid>
-      <description>Network Analysis #  Analysis of degree distributions #  We plot the degree distributions both before and after making the GCC which we used in the network. The rest of the project will use the GCC for the network, where outliers have been removed.
+      <description>Network Analysis #  The Office network is comprised of 221 characters and 690 nodes. Unsuprisingly, the most connected character is Michael Scott with 74 links!
+Analysis of degree distributions #  We plot the degree distributions both before and after making the GCC which we used in the network. The rest of the project will use the GCC for the network, where outliers have been removed.
 Inward degree distribution #  We see a power-law distribution, which has a majority of nodes with few in-going links, and few nodes with many in-going degrees.</description>
     </item>
     

@@ -18,7 +18,7 @@ Read our Explainer Notebook to learn more about motivation for this project, our
 <link rel="icon" href="/TheOfficeWebsite/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="/TheOfficeWebsite/book.min.46181bc93375ba932026e753b37c40e6ff8bb16a9ef770c78bcc663e4577b1ba.css" integrity="sha256-RhgbyTN1upMgJudTs3xA5v&#43;LsWqe93DHi8xmPkV3sbo=" crossorigin="anonymous">
   <script defer src="/TheOfficeWebsite/flexsearch.min.js"></script>
-  <script defer src="/TheOfficeWebsite/en.search.min.3b780b46b27528aa27b3e2da476d3eb48c0d2c575a715942a37073599abb3054.js" integrity="sha256-O3gLRrJ1KKons&#43;LaR20&#43;tIwNLFdacVlCo3BzWZq7MFQ=" crossorigin="anonymous"></script>
+  <script defer src="/TheOfficeWebsite/en.search.min.43ec773477f6790442c1c72ad80553be9fb4859d02f91cb7ffcb62830a30f542.js" integrity="sha256-Q&#43;x3NHf2eQRCwccq2AVTvp&#43;0hZ0C&#43;Ry3/8tigwow9UI=" crossorigin="anonymous"></script>
 <link rel="alternate" type="application/rss+xml" href="https://nklingen.github.io/TheOfficeWebsite/index.xml" title="The Office" />
 <!--
 Made with Book Theme
@@ -236,6 +236,29 @@ https://github.com/alex-shpak/hugo-book
 <p>This website was created by <a href="https://github.com/Blankuca">Blanca Robledo Díaz</a>, <a href="https://github.com/oliverzeman9">Oliver Zeman</a> and <a href="https://github.com/nklingen">Natasha Ø. Klingenbrunn</a> as a final project for the course <a href="https://github.com/SocialComplexityLab/socialgraphs2021/wiki">02805 Social graphs and interactions</a> offered by the Technical University of Denmark.</p>
 <p>Each of the following sections will analyse and visualize different datasets relating to the office.</p>
 <p>Read our <a href="https://nbviewer.org/github/nklingen/SocialGraphsProject/blob/main/Explainer_Notebook.ipynb">Explainer Notebook</a> to learn more about motivation for this project, our methodology, a breakdown of the theory used in the project, and a conclusion/discussion to sum up our thoughts. Also, feel free to download <a href="https://github.com/nklingen/SocialGraphsProject">GitHub repo</a> and explore the datasets and our code!</p>
+<h1 id="our-goal">
+  Our goal
+  <a class="anchor" href="#our-goal">#</a>
+</h1>
+<p>We will focus on analyzing The Office, which is an American mockumentary sitcom television series that depicts the everyday work lives of office employees in a branch of the Dunder Mifflin Paper Company [1]). We decided to focus on this because we are huge fans and it&rsquo;s a topic we are very familiar with.</p>
+<p>We want to a do an in-depth analysis of The Office to find some intresting insights and fun facts about the series and its characters. Given that the network is not big enough (less than 1000 characters) to find some intresting patterns in their social behaviour, our approach will heavily focus on a more qualitative analysis of the series. More specifically, we will do the following:</p>
+<ul>
+<li>Model the network of characters and extract information such as who is related to who, which characters are more popular and some other basic statistics (number of links and nodes, distrbution, etc).</li>
+<li>Find possible underlying communities and analyze what they have in common.</li>
+<li>Extract the most descriptive words that characterize each character from their wiki pages and analyze the characters´ dialogue to explore any visible personality traits in their way of speaking, using wordclouds.</li>
+<li>Determine which characters have the most lines throghout the series and see who interacts the most with whom.</li>
+<li>Analyze the sentiment of the series on average throughout the seasons and episodes and also for the individual characters, to determine who are the happiest, the saddest or who are the most emotionally stable/unstable.</li>
+<li>Explore the sentiment developement for the main characters throughout the series as well as determine the episodes that had a biggest emotional charge for them and why.</li>
+<li>Analyze the viewership and ratings of the series per episode and find possible explanations for the observed trends, while correlating them other parameters in the network.</li>
+<li>Explore the different directors for each episode, such as who had the highest ratings and who directed the most episodes.</li>
+</ul>
+<p>For this, we use the following datasets:</p>
+<ul>
+<li>The Office Wiki. For retrieving the characters and the links between each other, their category, the seasons they appear in and their biographical information.</li>
+<li>The Office script. To retrieve the dialogue of the characters that will allow us to extract their sentiment, any characterisitc expresions and the interaction network.</li>
+<li>IMBd ratings. To explore how the ratings varied throughout the episodes.</li>
+<li>Kaggle Dataset. For directors and viewership.</li>
+</ul>
 </article>
  
       
