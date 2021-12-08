@@ -42,7 +42,7 @@ The while the average sentiment per episode seems to very a lot, in general it w
 
 Next, we plot the character development of the main characters throughout the series. We begin by plotting their average sentiment throughout the seasons and examining their evolution.
 
-![character_sentiment_developement]({{<baseurl>}}/images/character_sentiment_developement.png)
+{{< include-html "content/interactive/sentimentdevelopmainmaincharacters.html" >}}
 
 One can see that Dwight is the saddest, but he does get happier with the seasons. In the last seasons his career takes off and he becomes Regional Manager, his dream. He also marries Angela and discovers that her son is his. Finally, he inherits a farm. 
 
@@ -56,7 +56,7 @@ Finally, Andy seems very happy in season 4, possibly because he is dating Angela
 
 Now let us look at the average sentiment of these characters per episode, in order to see if we can highlight some episodes which were particularly emotional for them.
 
-![sentiment_per_episode_main]({{<baseurl>}}/images/sentiment_per_episode_main.png)
+{{< include-html "content/interactive/sentimentanalysisperep.html" >}}
 
 There are a few episodes that had a high emotional load for Pam, Dwight and Andy, but we cannot observe any significant ones for Michael or Jim.
 
