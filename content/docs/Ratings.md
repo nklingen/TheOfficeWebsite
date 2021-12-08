@@ -19,7 +19,7 @@ In the image above, all ratings across all seasons are plotted. The plot is inte
 
 ## Analysis of Notable Top Episodes
 
-- `Goodbye Michael`: This is the [final episode featuring Michael Scott as the main character](https://theoffice.fandom.com/wiki/Goodbye,_Michael?so=search), and is [regarded by many critics as the "series finale", as the series declined in quality after Michael's depature][https://en.wikipedia.org/wiki/Goodbye,_Michael]. After he leaves, we see that the ratings crumble and the show cannot recover, spare the series Finale which he also appears in. 
+- `Goodbye Michael`: This is the [final episode featuring Michael Scott as the main character](https://theoffice.fandom.com/wiki/Goodbye,_Michael?so=search), and is [regarded by many critics as the "series finale", as the series declined in quality after Michael's depature](https://en.wikipedia.org/wiki/Goodbye,_Michael). After he leaves, we see that the ratings crumble and the show cannot recover, spare the series Finale which he also appears in. 
 
 - In `Stress Relief`, [Dwight stages a fire to test the office's fire safetly skills](https://theoffice.fandom.com/wiki/Stress_Relief). However, Stanley suffers a heart attack during the stress of the "drill". Afterwards, corporate organises a CPR training session, which becomes a fan favorite as one of the best scenes in the entire show.
 
