@@ -36,7 +36,7 @@ We observe that there characters with low standard deviation and few outliers, s
 
 {{< include-html "content/interactive/combined.html" >}}
 
-The while the average sentiment per episode seems to very a lot, in general it was more stable across seasons. The happiest episode is `Threat Level Midnight`, (also the highest rated episode), where Michael finishes his movie, featuring several the office characters, where they are all very excited to see how it turned out. The saddest eppisode is `Double Date` where Jim, Pam, Michael and Pam´s mum go on a double date but Michael ends up breaking up with Pam´s mom because he finds her too old for him. Both her and Pam are furious for the rest of the episode.
+The while the average sentiment per episode seems to very a lot, in general it was more stable across seasons. The happiest episode is `Threat Level Midnight`, where Michael finishes his movie, featuring several of his coworkers. The saddest eppisode is `Murder` where the branch learns that it is likely to be closed. Moreover, they play a murder mystery game to distract themselves, using many words related to "murder" and "kill",  which are words with a very low sentiment.
 
 ## Sentiment development of the main characters
 
