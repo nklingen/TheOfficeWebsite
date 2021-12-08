@@ -34,7 +34,7 @@ We observe that there characters with low standard deviation and few outliers, s
 
 ## Average sentiment for each season.
 
-![avg_sentiment_episode]({{<baseurl>}}/images/avg_sentiment_episode.png)
+{{< include-html "content/interactive/combined.html" >}}
 
 The while the average sentiment per episode seems to very a lot, in general it was more stable across seasons. The happiest episode is `Threat Level Midnight`, (also the highest rated episode), where Michael finishes his movie, featuring several the office characters, where they are all very excited to see how it turned out. The saddest eppisode is `Double Date` where Jim, Pam, Michael and Pam´s mum go on a double date but Michael ends up breaking up with Pam´s mom because he finds her too old for him. Both her and Pam are furious for the rest of the episode.
 
