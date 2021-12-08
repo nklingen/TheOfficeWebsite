@@ -32,4 +32,4 @@ For this, we use the following datasets:
 - The Office Wiki. For retrieving the characters and the links between each other, their category, the seasons they appear in and their biographical information.
 - The Office script. To retrieve the dialogue of the characters that will allow us to extract their sentiment, any characterisitc expresions and the interaction network.
 - IMBd ratings. To explore how the ratings varied throughout the episodes.
-Kaggle Dataset. For directors and viewership.
+- Kaggle Dataset. For directors and viewership.

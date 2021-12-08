@@ -6,6 +6,8 @@ draft: false
 
 # Network Analysis
 
+The Office network is comprised of 221 characters and 690 nodes. Unsuprisingly, the most connected character is Michael Scott with 74 links!
+
 ## Analysis of degree distributions
 
 ![viewership_seasons]({{<baseurl>}}/images/NetworkAnalysis.png)
